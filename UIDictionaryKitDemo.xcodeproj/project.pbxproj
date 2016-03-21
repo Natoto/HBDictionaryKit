@@ -14,6 +14,8 @@
 		33F457141C9FAEB4006339B7 /* UISwitch+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F457131C9FAEB4006339B7 /* UISwitch+HBDIC.m */; };
 		33F457191C9FC3E6006339B7 /* NSObject+HBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F457161C9FC3E6006339B7 /* NSObject+HBKVOController.m */; };
 		33F4571A1C9FC3E6006339B7 /* HBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F457181C9FC3E6006339B7 /* HBKVOController.m */; };
+		33F4571D1C9FD60F006339B7 /* UISegmentedControl+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F4571C1C9FD60F006339B7 /* UISegmentedControl+HBDIC.m */; };
+		33F457211C9FE649006339B7 /* UITextField+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F457201C9FE649006339B7 /* UITextField+HBDIC.m */; };
 		78E65A2F1C9E30BB008C42B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E65A2E1C9E30BB008C42B0 /* main.m */; };
 		78E65A321C9E30BB008C42B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E65A311C9E30BB008C42B0 /* AppDelegate.m */; };
 		78E65A351C9E30BB008C42B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E65A341C9E30BB008C42B0 /* ViewController.m */; };
@@ -64,6 +66,11 @@
 		33F457161C9FC3E6006339B7 /* NSObject+HBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HBKVOController.m"; sourceTree = "<group>"; };
 		33F457171C9FC3E6006339B7 /* HBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBKVOController.h; sourceTree = "<group>"; };
 		33F457181C9FC3E6006339B7 /* HBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBKVOController.m; sourceTree = "<group>"; };
+		33F4571B1C9FD60F006339B7 /* UISegmentedControl+HBDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+HBDIC.h"; sourceTree = "<group>"; };
+		33F4571C1C9FD60F006339B7 /* UISegmentedControl+HBDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+HBDIC.m"; sourceTree = "<group>"; };
+		33F4571E1C9FDE4F006339B7 /* UIDictionaryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDictionaryKit.h; sourceTree = "<group>"; };
+		33F4571F1C9FE649006339B7 /* UITextField+HBDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HBDIC.h"; sourceTree = "<group>"; };
+		33F457201C9FE649006339B7 /* UITextField+HBDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HBDIC.m"; sourceTree = "<group>"; };
 		78E65A2A1C9E30BB008C42B0 /* UIDictionaryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDictionaryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E65A2E1C9E30BB008C42B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78E65A301C9E30BB008C42B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,10 +200,13 @@
 		78E65A601C9E30DD008C42B0 /* UIDictionaryKit */ = {
 			isa = PBXGroup;
 			children = (
+				33F4571E1C9FDE4F006339B7 /* UIDictionaryKit.h */,
 				78E65A6F1C9E616E008C42B0 /* CALayer+HBDIC.h */,
 				78E65A701C9E616E008C42B0 /* CALayer+HBDIC.m */,
 				78E65A611C9E3111008C42B0 /* UILabel+HBDIC.h */,
 				78E65A621C9E3111008C42B0 /* UILabel+HBDIC.m */,
+				33F4571F1C9FE649006339B7 /* UITextField+HBDIC.h */,
+				33F457201C9FE649006339B7 /* UITextField+HBDIC.m */,
 				78E65A721C9E6F12008C42B0 /* UIButton+HBDIC.h */,
 				78E65A731C9E6F12008C42B0 /* UIButton+HBDIC.m */,
 				78E65A751C9E7033008C42B0 /* UIControl+HBDIC.h */,
@@ -207,6 +217,8 @@
 				33F457131C9FAEB4006339B7 /* UISwitch+HBDIC.m */,
 				33F4570D1C9FA3A5006339B7 /* UIImageView+HBDIC.h */,
 				33F4570E1C9FA3A5006339B7 /* UIImageView+HBDIC.m */,
+				33F4571B1C9FD60F006339B7 /* UISegmentedControl+HBDIC.h */,
+				33F4571C1C9FD60F006339B7 /* UISegmentedControl+HBDIC.m */,
 				78E65A661C9E38D0008C42B0 /* UIColor+HBKey.h */,
 				78E65A671C9E38D0008C42B0 /* UIColor+HBKey.m */,
 				78E65A691C9E3C34008C42B0 /* NSObject+HBKey.h */,
@@ -365,7 +377,9 @@
 				78E65A6E1C9E5C0F008C42B0 /* UIView+HBDIC.m in Sources */,
 				33F4570F1C9FA3A5006339B7 /* UIImageView+HBDIC.m in Sources */,
 				78E65A681C9E38D0008C42B0 /* UIColor+HBKey.m in Sources */,
+				33F457211C9FE649006339B7 /* UITextField+HBDIC.m in Sources */,
 				78E65A631C9E3111008C42B0 /* UILabel+HBDIC.m in Sources */,
+				33F4571D1C9FD60F006339B7 /* UISegmentedControl+HBDIC.m in Sources */,
 				78E65A741C9E6F12008C42B0 /* UIButton+HBDIC.m in Sources */,
 				78E65A321C9E30BB008C42B0 /* AppDelegate.m in Sources */,
 				78E65A2F1C9E30BB008C42B0 /* main.m in Sources */,

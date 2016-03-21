@@ -12,10 +12,10 @@
 
 @implementation UIViewController(HBDIC)
 
--(instancetype)configcontrolwithdictionary:(NSDictionary *)dic
+-(instancetype)configwithdictionary:(NSDictionary *)dic
 {
     if (self && dic && [[dic class] isSubclassOfClass:[NSDictionary class]]) {
-    
+  
         NSString * title = [dic objectForKey:@"title"];
         if (title && [[title class] isSubclassOfClass:[NSString class]]) {
             self.title = title;

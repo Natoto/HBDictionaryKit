@@ -62,6 +62,61 @@
 }
 
 
+//typedef NS_ENUM(NSInteger, UITextBorderStyle) {
+//    UITextBorderStyleNone,
+//    UITextBorderStyleLine,
+//    UITextBorderStyleBezel,
+//    UITextBorderStyleRoundedRect
+//};
+
+-(UITextBorderStyle)UITextBorderStyleFromString:(NSString *)string
+{
+    string = [string lowercaseString];
+    UITextBorderStyle borderstyle = UITextBorderStyleNone;
+    if ([string isInStrings:@"none",@"uitextborderstylenone",NULL]) {
+        borderstyle = UITextBorderStyleNone;
+    }
+    else if([string isInStrings:@"line",@"uitextborderstyleline",NULL])
+    {
+        borderstyle = UITextBorderStyleLine;
+    }
+    else if([string isInStrings:@"bezel",@"uitextborderstylebezel",NULL])
+    {
+        borderstyle = UITextBorderStyleBezel;
+    }
+    else if([string isInStrings:@"rect",@"rounded",@"roundedrect",@"uitextborderstyleroundedrect",NULL])
+    {
+        borderstyle = UITextBorderStyleRoundedRect;
+    }
+    return borderstyle;
+}
+
+//typedef NS_ENUM(NSInteger, UITextFieldViewMode) {
+//    UITextFieldViewModeNever,
+//    UITextFieldViewModeWhileEditing,
+//    UITextFieldViewModeUnlessEditing,
+//    UITextFieldViewModeAlways
+//};
+
+-(UITextFieldViewMode)UITextFieldViewModeFromString:(NSString *)string
+{
+    string = [string lowercaseString];
+    UITextFieldViewMode mode = UITextFieldViewModeNever;
+    if ([string isInStrings:@"none",NULL]) {
+        mode = UITextFieldViewModeNever;
+    }
+    else if([string isInStrings:@"whileediting",@"uitextfieldviewmodewhileediting",NULL]){
+        mode = UITextFieldViewModeWhileEditing;
+    }
+    else if([string isInStrings:@"whileediting",@"uitextfieldviewmodeunlessediting",NULL]){
+        mode = UITextFieldViewModeUnlessEditing;
+    }
+    else if([string isInStrings:@"whileediting",@"uitextfieldviewmodewhileediting",NULL]){
+        mode = UITextFieldViewModeWhileEditing;
+    }
+    return mode;
+}
+
 @end
 
 @implementation  NSString(HBKey)
@@ -91,6 +146,16 @@
     va_end(list);
     return valiate;
 }
-
+//item1,item2,item3,item4
+-(NSArray *)textArrayFromString:(NSString *)string
+{
+    NSArray * compantenames = [string componentsSeparatedByString:@","];
+    NSMutableArray * images = [NSMutableArray new];
+    [compantenames enumerateObjectsUsingBlock:^(NSString * imgname, NSUInteger idx, BOOL * _Nonnull stop) {
+        [images addObject:imgname];
+    }];
+    return images;
+}
+ 
 
 @end

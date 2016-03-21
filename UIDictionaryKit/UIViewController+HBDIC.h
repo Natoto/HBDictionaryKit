@@ -10,5 +10,5 @@
 
 @interface UIViewController(HBDIC)
 
--(instancetype)configcontrolwithdictionary:(NSDictionary *)plistdic;
+-(instancetype)configwithdictionary:(NSDictionary *)dic;
 @end

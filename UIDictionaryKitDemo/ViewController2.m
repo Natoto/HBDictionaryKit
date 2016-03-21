@@ -10,6 +10,8 @@
 #import "UIViewController+HBDIC.h"
 #import "UIImageView+HBDIC.h"
 #import "HBKVOController.h"
+#import "UISwitch+HBDIC.h"
+#import "UISegmentedControl+HBDIC.h"
 
 @interface ViewController2 ()
 
@@ -20,13 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSDictionary * plistdic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"UIKitStyle" ofType:@"plist"]];
-    [self configcontrolwithdictionary:[plistdic objectForKey:@"viewcontroller2"]];
+    [self configwithdictionary:[plistdic objectForKey:@"viewcontroller2"]];
     
     UIImageView * imgview = [UIImageView new];
     [self.view addSubview:imgview];
-    [imgview configcontrolwithdictionary:[plistdic objectForKey:@"imageview"]];
+    [imgview configwithdictionary:[plistdic objectForKey:@"imageview"]];
     
+    UISwitch * switc=[UISwitch new];
+    [self.view addSubview:switc];
+    [switc  configwithdictionary:[plistdic objectForKey:@"switch"]];
     
+    UISegmentedControl * segctr =[[UISegmentedControl alloc] initWithItems:@[@"1",@"1",@"1",@"1"]];
+    [self.view addSubview:segctr];
+    [segctr configwithdictionary:[plistdic objectForKey:@"segmentcontrol"]];
     
 }
 

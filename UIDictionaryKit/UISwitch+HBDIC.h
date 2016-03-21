@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UISwitch_HBDIC : UISwitch
+@interface UISwitch(HBDIC)
 
+-(instancetype)configwithdictionary:(NSDictionary *)plistdic;
 @end

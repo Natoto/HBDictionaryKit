@@ -1,5 +1,5 @@
 //
-//  UIImageView+HBDIC.h
+//  UISegmentedControl+HBDIC.h
 //  UIDictionaryKitDemo
 //
 //  Created by zeno on 16/3/21.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView(HBDIC)
+@interface UISegmentedControl(HBDIC)
 
 -(instancetype)configwithdictionary:(NSDictionary *)dictionary;
 @end

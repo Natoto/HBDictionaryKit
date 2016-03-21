@@ -22,7 +22,7 @@
        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, highlighted, self.highlighted = highlighted);
        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, contentHorizontalAlignment, self.contentHorizontalAlignment = [self UIControlContentHorizontalAlignmentFromString:contentHorizontalAlignment];)
        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, contentVerticalAlignment, self.contentVerticalAlignment = [self UIControlContentVerticalAlignmentFromString:contentVerticalAlignment];)
-    
+     
     }
     return self;
 }

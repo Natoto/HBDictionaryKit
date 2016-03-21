@@ -13,8 +13,7 @@
 
 @implementation UIImageView(HBDIC)
 
-
--(instancetype)configcontrolwithdictionary:(NSDictionary *)dictionary
+-(instancetype)configwithdictionary:(NSDictionary *)dictionary
 {
     if (self && dictionary && [[dictionary class] isSubclassOfClass:[NSDictionary class]]) {
         [self configsuperwithdictionary:dictionary];

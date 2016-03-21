@@ -1,5 +1,5 @@
 //
-//  UIImageView+HBDIC.h
+//  UITextField+HBDIC.h
 //  UIDictionaryKitDemo
 //
 //  Created by zeno on 16/3/21.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView(HBDIC)
+@interface UITextField(HBDIC)
 
--(instancetype)configwithdictionary:(NSDictionary *)dictionary;
+-(instancetype)configwithdictionary:(NSDictionary *)plistdic;
 @end

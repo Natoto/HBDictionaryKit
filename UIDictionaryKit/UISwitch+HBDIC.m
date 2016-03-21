@@ -6,20 +6,21 @@
 //  Copyright © 2016年 BooB. All rights reserved.
 //
 
+#import "NSObject+HBKey.h"
 #import "UISwitch+HBDIC.h"
+#import "UIControl+HBDIC.h"
+#import "UIColor+HBKey.h"
+@implementation UISwitch(HBDIC)
 
-@implementation UISwitch_HBDIC
-
-//
-//onTintColor
-//tintColor
-//thumbTintColor
-//onImage
-//offImage
--(instancetype)configcontrolwithdictionary:(NSDictionary *)dic
+-(instancetype)configwithdictionary:(NSDictionary *)plistdic
 {
-    if (self && dic && [[dic class] isSubclassOfClass:[NSDictionary class]]) {
-        
+    if (self && plistdic && [[plistdic class] isSubclassOfClass:[NSDictionary class]]) {
+        [self configcontrolwithdictionary:plistdic];
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, onTintColor, if(onTintColor.length) self.onTintColor = [UIColor colorWithHBKeyString:onTintColor];)
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, tintColor, if(tintColor.length) self.tintColor = [UIColor colorWithHBKeyString:tintColor]);
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, thumbTintColor, if(thumbTintColor.length) self.thumbTintColor = [UIColor colorWithHBKeyString:thumbTintColor];)
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, onImage, if(onImage) self.onImage = [UIImage imageNamed:onImage]);
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, offImage, if(offImage) self.offImage = [UIImage imageNamed:offImage]);
     }
     return self;
 }

@@ -24,7 +24,7 @@
 		<key>fontsize</key>
 		<integer>25</integer>
 		<key>textColor</key>
-		<string>red</string>
+		<string>random,0.5</string>
 		<key>shadowColor</key>
 		<string>gray</string>
 		<key>shadowOffset</key>
@@ -72,11 +72,11 @@
 		<key>frame</key>
 		<string>{{10,160},{300,100}}</string>
 		<key>text</key>
-		<string>dddddddddd asfwrqwers s gsdfge tewrte wrgdbd ewtwer dsfxbf b srwer gsd</string>
+		<string>Touch Me and change Text</string>
 		<key>fontsize</key>
 		<integer>30</integer>
 		<key>textColor</key>
-		<string>red</string>
+		<string>random,0.9</string>
 		<key>shadowColor</key>
 		<string>gray</string>
 		<key>shadowOffset</key>
@@ -118,13 +118,13 @@
 		<key>backgroundColor</key>
 		<string>gray</string>
 		<key>text</key>
-		<string>dddddddddd asfwrqwers s gsdfge tewrte wrgdbd ewtwer dsfxbf b srwer gsd</string>
+		<string>I&apos;m a label</string>
 		<key>fontsize</key>
 		<integer>50</integer>
 		<key>textColor</key>
 		<string>green</string>
 		<key>frame</key>
-		<string>{{10,330},{320,100}}</string>
+		<string>{{10,300},{320,50}}</string>
 		<key>shadowColor</key>
 		<string>blue</string>
 		<key>shadowOffset</key>
@@ -215,9 +215,9 @@
 		<key>userInteractionEnabled</key>
 		<string></string>
 		<key>frame</key>
-		<string>{{10,65},{200,200}}</string>
+		<string>{{10,65},{100,100}}</string>
 		<key>center</key>
-		<string>{200,200}</string>
+		<string>{150,120}</string>
 		<key>highlighted</key>
 		<string></string>
 		<key>animationImages</key>
@@ -234,9 +234,43 @@
 	<key>viewcontroller2</key>
 	<dict>
 		<key>backgroundcolor</key>
-		<string>random</string>
+		<string>gray</string>
 		<key>title</key>
 		<string>viewcontroller2</string>
+	</dict>
+	<key>switch</key>
+	<dict>
+		<key>onTintColor</key>
+		<string>orange</string>
+		<key>tintColor</key>
+		<string>green</string>
+		<key>thumbTintColor</key>
+		<string></string>
+		<key>center</key>
+		<string>{150,170}</string>
+		<key>onImage</key>
+		<string></string>
+		<key>offImage</key>
+		<string></string>
+	</dict>
+	<key>segmentcontrol</key>
+	<dict>
+		<key>center</key>
+		<string>{100,210}</string>
+		<key>apportionsSegmentWidthsByContent</key>
+		<true/>
+		<key>selectedTitleTextColor</key>
+		<string>white</string>
+		<key>titleTextColor</key>
+		<string>black</string>
+		<key>tintColor</key>
+		<string>random,0.5</string>
+		<key>selectedSegmentIndex</key>
+		<integer>2</integer>
+		<key>items</key>
+		<string>item1,item2,item3,item4</string>
+		<key>imageItems</key>
+		<string></string>
 	</dict>
 	<key>button</key>
 	<dict>

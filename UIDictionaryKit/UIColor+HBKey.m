@@ -19,20 +19,25 @@
 #define KT_HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1]
 
 
-+(UIColor *)colorWithHBKeyString:(NSString *)key
++(UIColor *)colorWithHBKeyString:(NSString *)akey
 {
-    if (!key || key.length == 0) return nil;
+    if (!akey || akey.length == 0) return nil;
     
-    key = [key lowercaseString];
+    akey = [akey lowercaseString];
+    NSArray * compants =[akey componentsSeparatedByString:@","];
+    NSString * key = compants[0];
+    NSString * alphastr = compants.count>1?compants[1]:@"1";
+    float alpha = alphastr.floatValue;
+    
     if ([key rangeOfString:@"0x"].location!= NSNotFound || [key rangeOfString:@"0X"].location!= NSNotFound) {
         //先以16为参数告诉strtoul字符串参数表示16进制数字，然后使用0x%X转为数字类型
         unsigned long red = strtoul([key UTF8String],0,16);
         NSLog(@"%s  %@ --> %lx",__FUNCTION__,key,red);
-        UIColor * color = KT_HEXCOLOR(red);
+        UIColor * color = KT_HEXCOLORA(red,alpha);
         return color;
     }
     if ([key isEqualToString:@"random"]) {
-        return [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+        return [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:alpha];
     }
     
     if ([key isEqualToString:uicolor_hbkey_blue]) {

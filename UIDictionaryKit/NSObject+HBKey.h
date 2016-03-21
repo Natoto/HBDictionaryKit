@@ -42,6 +42,10 @@ NSLog(@"💔 --> 数据类型不一致，无法赋值 in %s %s %@ ",__FILE__,__F
 -(NSTextAlignment )NSTextAlignmentFromString:(NSString *)string;
 
 -(NSLineBreakMode)NSLineBreakModeFromString:(NSString *)string;
+
+-(UITextBorderStyle)UITextBorderStyleFromString:(NSString *)string;
+
+-(UITextFieldViewMode)UITextFieldViewModeFromString:(NSString *)string;
 @end
 
 @interface NSString(HBKey)
@@ -51,4 +55,7 @@ NSLog(@"💔 --> 数据类型不一致，无法赋值 in %s %s %@ ",__FILE__,__F
  */
 
 -(BOOL)isInStrings:(NSString *)s1, ...;
+
+-(NSArray *)textArrayFromString:(NSString *)string;
+
 @end
