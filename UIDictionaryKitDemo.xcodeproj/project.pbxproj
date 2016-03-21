@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33F457061C9F96D5006339B7 /* UIDictionaryKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UIDictionaryKit.podspec; sourceTree = SOURCE_ROOT; };
 		78E65A2A1C9E30BB008C42B0 /* UIDictionaryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDictionaryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E65A2E1C9E30BB008C42B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78E65A301C9E30BB008C42B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		78E65A2D1C9E30BB008C42B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33F457061C9F96D5006339B7 /* UIDictionaryKit.podspec */,
 				78E65A2E1C9E30BB008C42B0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -552,6 +554,7 @@
 				78E65A591C9E30BC008C42B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E65A5A1C9E30BC008C42B0 /* Build configuration list for PBXNativeTarget "UIDictionaryKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +563,7 @@
 				78E65A5C1C9E30BC008C42B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E65A5D1C9E30BC008C42B0 /* Build configuration list for PBXNativeTarget "UIDictionaryKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +572,7 @@
 				78E65A5F1C9E30BC008C42B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
