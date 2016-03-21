@@ -41,7 +41,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UIView style ###
 
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----| 
+|--|--|:-----:|:----| 
 |frame|||
 |center|||
 |backgroundColor|||
