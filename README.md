@@ -41,7 +41,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UIView style ###
 
 |KEY|TYPE|VALUE|备注|
-|--|--|:-----:|:----| 
+| --------   | -----:  | :----:  |
 |frame|||
 |center|||
 |backgroundColor|||
@@ -53,7 +53,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----| 
+| --------   | -----:  | :----:  |
 |direction|nsstring| left/right/top/bottom|可以用竖线分割表示多个边框|
 |maskToBounds
 |cornerRadius
@@ -63,7 +63,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UILabel style ###
 
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----| 
+| --------   | -----:  | :----:  |
 |font
 | textColor
 | shadowColor
@@ -87,7 +87,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UITextField style ###
 
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----|
+| --------   | -----:  | :----:  |
 |text
 |textColor
 |fontSize;
