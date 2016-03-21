@@ -204,6 +204,40 @@
 		<key>adjustsLetterSpacingToFitWidth</key>
 		<false/>
 	</dict>
+	<key>imageview</key>
+	<dict>
+		<key>image</key>
+		<string>profile</string>
+		<key>backgroundColor</key>
+		<string>random</string>
+		<key>highlightedImage</key>
+		<string></string>
+		<key>userInteractionEnabled</key>
+		<string></string>
+		<key>frame</key>
+		<string>{{10,65},{200,200}}</string>
+		<key>center</key>
+		<string>{200,200}</string>
+		<key>highlighted</key>
+		<string></string>
+		<key>animationImages</key>
+		<string></string>
+		<key>highlightedAnimationImages</key>
+		<string></string>
+		<key>animationDuration</key>
+		<string></string>
+		<key>tintColor</key>
+		<string>white</string>
+		<key>animationRepeatCount</key>
+		<string></string>
+	</dict>
+	<key>viewcontroller2</key>
+	<dict>
+		<key>backgroundcolor</key>
+		<string>random</string>
+		<key>title</key>
+		<string>viewcontroller2</string>
+	</dict>
 	<key>button</key>
 	<dict>
 		<key>layer</key>
@@ -222,11 +256,11 @@
 		<key>highlightedBackgroundColor</key>
 		<string>random</string>
 		<key>text</key>
-		<string>dddddddddd asfwrqwers s gsdfge tewrte wrgdbd ewtwer dsfxbf b srwer gsd</string>
+		<string></string>
 		<key>highlightedTitleColor</key>
 		<string>random</string>
 		<key>title</key>
-		<string>HBDIC Button </string>
+		<string>KVO-&gt;DIC-&gt;TITLE</string>
 		<key>fontsize</key>
 		<integer>20</integer>
 		<key>textColor</key>

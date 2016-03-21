@@ -16,7 +16,7 @@
 
 -(instancetype)configsuperwithdictionary:(NSDictionary *)plistdic
 {
-    if (self && plistdic) {
+    if (self && plistdic && [[plistdic class] isSubclassOfClass:[NSDictionary class]]) {
         
         //CGRectFromString 将String转成CGRect  {{x,y},{w, h}}
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, frame, if(frame.length){self.frame = CGRectFromString(frame);});

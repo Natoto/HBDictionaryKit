@@ -7,6 +7,9 @@
 //
 
 #import "ViewController2.h"
+#import "UIViewController+HBDIC.h"
+#import "UIImageView+HBDIC.h"
+#import "HBKVOController.h"
 
 @interface ViewController2 ()
 
@@ -16,7 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSDictionary * plistdic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"UIKitStyle" ofType:@"plist"]];
+    [self configcontrolwithdictionary:[plistdic objectForKey:@"viewcontroller2"]];
+    
+    UIImageView * imgview = [UIImageView new];
+    [self.view addSubview:imgview];
+    [imgview configcontrolwithdictionary:[plistdic objectForKey:@"imageview"]];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
