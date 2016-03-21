@@ -71,38 +71,38 @@
 }
 
 #pragma mark -
--(id)configWithDictionary:(NSDictionary *)dictionary
-{
-    if (self) {
-        for ( Class clazzType = [self class];; )
-        {
-            unsigned int		propertyCount = 0;
-            objc_property_t *	properties = class_copyPropertyList( clazzType, &propertyCount);
-            for ( NSUInteger i = 0; i < propertyCount; i++ )
-            {
-                const char *	name = property_getName(properties[i]);
-                NSString *		propertyName = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
-                if([propertyName description])
-                {
-                    @try {
-                        id object = [dictionary valueForKey:propertyName];
-                        if (object) {
-                            // 1 对其赋值 类型错误不挂掉
-                            [self setValue:object forKey:propertyName];
-                        }
-                    }
-                    @catch (NSException *exception) {
-                        // 2 捕获类型不匹配 赋值异常
-                        NSLog(@"😢-->%@ 类型不匹配 %s\n%@",propertyName, __FUNCTION__, exception);
-                    }
-                }
-            }
-            free( properties );
-            clazzType = class_getSuperclass( clazzType );
-            if ( nil == clazzType )
-                break;
-        }
-    }
-    return self;
-}
+//-(id)configWithDictionary:(NSDictionary *)dictionary
+//{
+//    if (self) {
+//        for ( Class clazzType = [self class];; )
+//        {
+//            unsigned int		propertyCount = 0;
+//            objc_property_t *	properties = class_copyPropertyList( clazzType, &propertyCount);
+//            for ( NSUInteger i = 0; i < propertyCount; i++ )
+//            {
+//                const char *	name = property_getName(properties[i]);
+//                NSString *		propertyName = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
+//                if([propertyName description])
+//                {
+//                    @try {
+//                        id object = [dictionary valueForKey:propertyName];
+//                        if (object) {
+//                            // 1 对其赋值 类型错误不挂掉
+//                            [self setValue:object forKey:propertyName];
+//                        }
+//                    }
+//                    @catch (NSException *exception) {
+//                        // 2 捕获类型不匹配 赋值异常
+//                        NSLog(@"😢-->%@ 类型不匹配 %s\n%@",propertyName, __FUNCTION__, exception);
+//                    }
+//                }
+//            }
+//            free( properties );
+//            clazzType = class_getSuperclass( clazzType );
+//            if ( nil == clazzType )
+//                break;
+//        }
+//    }
+//    return self;
+//}
 @end

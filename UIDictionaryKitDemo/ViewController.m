@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "UILabel+HBDIC.h"
 #import "UIButton+HBDIC.h"
-
+#import "ViewController2.h"
 @interface ViewController ()
 
 @end
@@ -36,6 +36,7 @@
     
     [label1 touchEndedBlock:^(UIView *selfView) {
         NSLog(@" label1 tap");
+        [self.navigationController pushViewController:[ViewController2 new] animated:YES];
     }];
     
     UIView * view0 = [UIView new];

@@ -35,66 +35,66 @@
         return [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
     }
     
-    if ([key isEqualToString:value_cellstruct_blue]) {
-        return  CELL_STRUCT_COLOR(blue);
+    if ([key isEqualToString:uicolor_hbkey_blue]) {
+        return  uicolor_forkey_(blue);
     }
     if ([key isEqualToString:@"darkgray"]) {
-        return  CELL_STRUCT_COLOR(darkGray);
+        return  uicolor_forkey_(darkGray);
     }
     if ([key isEqualToString:@"lightgray"]) {
-        return  CELL_STRUCT_COLOR(lightGray);
+        return  uicolor_forkey_(lightGray);
     }
-    else if([key isEqualToString:value_cellstruct_white])
+    else if([key isEqualToString:uicolor_hbkey_white])
     {
-        return CELL_STRUCT_COLOR(white);
+        return uicolor_forkey_(white);
     }
-    else if([key isEqualToString:value_cellstruct_gray])
+    else if([key isEqualToString:uicolor_hbkey_gray])
     {
-        return CELL_STRUCT_COLOR(gray);
+        return uicolor_forkey_(gray);
     }
-    else if([key isEqualToString:value_cellstruct_red])
+    else if([key isEqualToString:uicolor_hbkey_red])
     {
-        return CELL_STRUCT_COLOR(red);
+        return uicolor_forkey_(red);
     }
-    else if([key isEqualToString:value_cellstruct_green])
+    else if([key isEqualToString:uicolor_hbkey_green])
     {
-        return CELL_STRUCT_COLOR(green);
+        return uicolor_forkey_(green);
     }
-    else if([key isEqualToString:value_cellstruct_blue])
+    else if([key isEqualToString:uicolor_hbkey_blue])
     {
-        return CELL_STRUCT_COLOR(blue);
+        return uicolor_forkey_(blue);
     }
-    else if([key isEqualToString:value_cellstruct_cyan])
+    else if([key isEqualToString:uicolor_hbkey_cyan])
     {
-        return CELL_STRUCT_COLOR(cyan);
+        return uicolor_forkey_(cyan);
     }
-    else if([key isEqualToString:value_cellstruct_yellow])
+    else if([key isEqualToString:uicolor_hbkey_yellow])
     {
-        return CELL_STRUCT_COLOR(yellow);
+        return uicolor_forkey_(yellow);
     }
-    else if([key isEqualToString:value_cellstruct_magenta])
+    else if([key isEqualToString:uicolor_hbkey_magenta])
     {
-        return CELL_STRUCT_COLOR(magenta);
+        return uicolor_forkey_(magenta);
     }
-    else if([key isEqualToString:value_cellstruct_orange])
+    else if([key isEqualToString:uicolor_hbkey_orange])
     {
-        return CELL_STRUCT_COLOR(orange);
+        return uicolor_forkey_(orange);
     }
-    else if([key isEqualToString:value_cellstruct_purple])
+    else if([key isEqualToString:uicolor_hbkey_purple])
     {
-        return CELL_STRUCT_COLOR(purple);
+        return uicolor_forkey_(purple);
     }
-    else if([key isEqualToString:value_cellstruct_brown])
+    else if([key isEqualToString:uicolor_hbkey_brown])
     {
-        return CELL_STRUCT_COLOR(brown);
+        return uicolor_forkey_(brown);
     }
-    else if([key isEqualToString:value_cellstruct_clear])
+    else if([key isEqualToString:uicolor_hbkey_clear])
     {
-        return CELL_STRUCT_COLOR(clear);
+        return uicolor_forkey_(clear);
     }
-    else if([key isEqualToString:value_cellstruct_black])
+    else if([key isEqualToString:uicolor_hbkey_black])
     {
-        return CELL_STRUCT_COLOR(black);
+        return uicolor_forkey_(black);
     }
     
     return nil;

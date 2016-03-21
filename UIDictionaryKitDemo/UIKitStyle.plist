@@ -9,7 +9,7 @@
 			<key>borderColor</key>
 			<string>green</string>
 			<key>cornerRadius</key>
-			<string>50</string>
+			<string>10</string>
 			<key>maskToBounds</key>
 			<true/>
 			<key>borderWidth</key>
@@ -18,17 +18,17 @@
 		<key>backgroundColor</key>
 		<string>white</string>
 		<key>frame</key>
-		<string>{{10,30},{300,100}}</string>
+		<string>{{10,65},{300,50}}</string>
 		<key>text</key>
-		<string>testtesttesttest   testtesttestte  sttest</string>
+		<string>Touch me to next controller</string>
 		<key>fontsize</key>
-		<integer>50</integer>
+		<integer>25</integer>
 		<key>textColor</key>
 		<string>red</string>
 		<key>shadowColor</key>
 		<string>gray</string>
 		<key>shadowOffset</key>
-		<string>{3,0}</string>
+		<string>{1,0}</string>
 		<key>textAlignment</key>
 		<string>center</string>
 		<key>lineBreakMode</key>
@@ -70,7 +70,7 @@
 		<key>backgroundColor</key>
 		<string>white</string>
 		<key>frame</key>
-		<string>{{10,140},{300,100}}</string>
+		<string>{{10,160},{300,100}}</string>
 		<key>text</key>
 		<string>dddddddddd asfwrqwers s gsdfge tewrte wrgdbd ewtwer dsfxbf b srwer gsd</string>
 		<key>fontsize</key>
