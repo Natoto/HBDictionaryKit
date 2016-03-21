@@ -71,6 +71,7 @@
 		33F4571E1C9FDE4F006339B7 /* UIDictionaryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDictionaryKit.h; sourceTree = "<group>"; };
 		33F4571F1C9FE649006339B7 /* UITextField+HBDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HBDIC.h"; sourceTree = "<group>"; };
 		33F457201C9FE649006339B7 /* UITextField+HBDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HBDIC.m"; sourceTree = "<group>"; };
+		33F457221C9FFC6F006339B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		78E65A2A1C9E30BB008C42B0 /* UIDictionaryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDictionaryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E65A2E1C9E30BB008C42B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78E65A301C9E30BB008C42B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +166,7 @@
 				78E65A3B1C9E30BB008C42B0 /* LaunchScreen.storyboard */,
 				78E65A3E1C9E30BB008C42B0 /* Info.plist */,
 				33F457101C9FACFA006339B7 /* profile.png */,
+				33F457221C9FFC6F006339B7 /* README.md */,
 				78E65A2D1C9E30BB008C42B0 /* Supporting Files */,
 			);
 			path = UIDictionaryKitDemo;
