@@ -17,6 +17,7 @@
 |red
 |blue
 |...
+
 ```
 static NSString * uicolor_hbkey_black = @"black";      // 0.0 white
 static NSString * uicolor_hbkey_lightGray = @"lightgraycolor";  // 0.667 white
@@ -36,7 +37,9 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ```
 * 写法，如 @"red"，@"random"，@"0x112,1"
 *  常用颜色直接写数字，自定义颜色用十六进制0x表示，支持alpha半透明
+
 ### UIView style ###
+
 |KEY|TYPE|VALUE|备注|
 | -| -|:-----:|:----| 
 |frame
@@ -45,7 +48,9 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 |tag
 |layer
 
+
 ### CALayer ###
+
 
 |KEY|TYPE|VALUE|备注|
 | -| -|:-----:|:----| 
@@ -56,6 +61,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 |borderColor
 
 ### UILabel style ###
+
 |KEY|TYPE|VALUE|备注|
 | -| -|:-----:|:----| 
 |font
@@ -116,6 +122,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 --- 
 ### Switch style
+
 |KEY|TYPE|VALUE|备注|
 | -| -|:-----:|:----| 
 |onTintColor|
@@ -139,6 +146,8 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 |tintColor
 |titleTextColor
 |selectedTitleTextColor
+
+
 * 注意：uisegmentcontrol 初始化必须是`[[UISegmentedControl alloc] initWithItems:@[@"1",@"2",@"3",@"4"]]`; 的形式不然对其赋值title或者image将不生效 并有异常抛出
 
 
