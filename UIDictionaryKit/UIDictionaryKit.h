@@ -10,15 +10,16 @@
 #define UIDictionaryKit_h
 
 #import "UIColor+HBKey.h"
-#import "NSObject+HBDIC.h"
-
+#import "NSObject+HBKey.h"
 #import "UILabel+HBDIC.h"
 #import "UIView+HBDIC.h"
 #import "UIButton+HBDIC.h"
 #import "HBKVOController.h"
 #import "UIImageView+HBDIC.h"
 #import "UISwitch+HBDIC.h"
-#import "UIViewController.h"
-#import "UISegmentControl+HBDIC.h"
-
+#import "UISegmentedControl+HBDIC.h"
+#import "UIViewController+HBDIC.h"
+#import "UIImageView+HBDIC.h"
+#import "HBKVOController.h"
+#import "UITextField+HBDIC.h"
 #endif /* UIDictionaryKit_h */

@@ -7,11 +7,7 @@
 //
 
 #import "ViewController2.h"
-#import "UIViewController+HBDIC.h"
-#import "UIImageView+HBDIC.h"
-#import "HBKVOController.h"
-#import "UISwitch+HBDIC.h"
-#import "UISegmentedControl+HBDIC.h"
+#import "UIDictionaryKit.h"
 
 @interface ViewController2 ()
 
@@ -36,6 +32,24 @@
     [self.view addSubview:segctr];
     [segctr configwithdictionary:[plistdic objectForKey:@"segmentcontrol"]];
     
+    UITextField * txtfield = [UITextField new];
+    [self.view addSubview:txtfield];
+    [txtfield configwithdictionary:[plistdic objectForKey:@"textfield"]];
+    txtfield.leftView = ({
+        UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+        view.backgroundColor = [UIColor redColor];
+        view;
+    });
+    
+    txtfield.rightView = ({
+        UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 30, 40)];
+        view.backgroundColor = [UIColor orangeColor];
+        view;
+    });
+    
+    [self.view touchEndedBlock:^(UIView *selfView) {
+        [self.view endEditing:YES];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

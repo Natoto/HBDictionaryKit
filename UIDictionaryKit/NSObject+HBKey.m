@@ -102,17 +102,17 @@
 {
     string = [string lowercaseString];
     UITextFieldViewMode mode = UITextFieldViewModeNever;
-    if ([string isInStrings:@"none",NULL]) {
+    if ([string isInStrings:@"none",@"never",@"uitextfieldviewmodenever",NULL]) {
         mode = UITextFieldViewModeNever;
     }
-    else if([string isInStrings:@"whileediting",@"uitextfieldviewmodewhileediting",NULL]){
+    else if([string isInStrings:@"while",@"whileediting",@"uitextfieldviewmodewhileediting",NULL]){
         mode = UITextFieldViewModeWhileEditing;
     }
-    else if([string isInStrings:@"whileediting",@"uitextfieldviewmodeunlessediting",NULL]){
+    else if([string isInStrings:@"unless",@"unlessediting",@"uitextfieldviewmodeunlessediting",NULL]){
         mode = UITextFieldViewModeUnlessEditing;
     }
-    else if([string isInStrings:@"whileediting",@"uitextfieldviewmodewhileediting",NULL]){
-        mode = UITextFieldViewModeWhileEditing;
+    else if([string isInStrings:@"always",@"uitextfieldviewmodewhileediting",NULL]){
+        mode = UITextFieldViewModeAlways;
     }
     return mode;
 }

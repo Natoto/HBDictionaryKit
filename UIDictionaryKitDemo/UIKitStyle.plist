@@ -272,6 +272,43 @@
 		<key>imageItems</key>
 		<string></string>
 	</dict>
+	<key>textfield</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>white</string>
+		<key>text</key>
+		<string></string>
+		<key>frame</key>
+		<string>{{10,200},{200,30}}</string>
+		<key>center</key>
+		<string>{180,300}</string>
+		<key>textColor</key>
+		<string>black</string>
+		<key>fontSize</key>
+		<integer>13</integer>
+		<key>textAlignment</key>
+		<string>left</string>
+		<key>borderStyle</key>
+		<string>rect</string>
+		<key>placeholder</key>
+		<string>请输入您的银行卡密码😄</string>
+		<key>clearOnBeginEditing</key>
+		<true/>
+		<key>adjustsFontSizeToFitWidth</key>
+		<false/>
+		<key>mininumFontSize</key>
+		<string></string>
+		<key>background</key>
+		<string></string>
+		<key>disableBackground</key>
+		<string></string>
+		<key>clearButtonMode</key>
+		<string>always</string>
+		<key>leftViewMode</key>
+		<string>unless</string>
+		<key>rightViewMode</key>
+		<string>while</string>
+	</dict>
 	<key>button</key>
 	<dict>
 		<key>layer</key>
