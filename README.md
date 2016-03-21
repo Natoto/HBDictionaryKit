@@ -14,9 +14,9 @@
 
 |KEY|TYPE|VALUE|备注|
 | -| -|:-----:|:----| 
-|red
-|blue
-|...
+|red|||
+|blue|||
+|...|||
 
 ```
 static NSString * uicolor_hbkey_black = @"black";      // 0.0 white
@@ -151,5 +151,6 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 * 注意：uisegmentcontrol 初始化必须是`[[UISegmentedControl alloc] initWithItems:@[@"1",@"2",@"3",@"4"]]`; 的形式不然对其赋值title或者image将不生效 并有异常抛出
+
 
 
