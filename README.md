@@ -114,7 +114,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 ### uiimageview+hdic  style ###
 |KEY|TYPE|VALUE|备注|
-| --------------------| -|:-----:|:----| 
+| --------------------|-----|:-----:|:----| 
 |image|nsstring|a.png
 |highlightedImage|nsstring|a.png
 |userInteractionEnabled|nsnumber|1/0|
@@ -130,7 +130,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### Switch style
 
 |KEY|TYPE|VALUE|备注|
-| ----------| -|:-----:|:----| 
+| ----------| ------|:-----:|:----| 
 |onTintColor|
 |tintColor|
 |thumbTintColor|
