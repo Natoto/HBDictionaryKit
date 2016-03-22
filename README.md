@@ -59,7 +59,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 |KEY|TYPE|VALUE|备注|
-| -------------   | -----------:  | :----:  |
+| -------------   | -----------:| -----------:  | :----:  |
 |direction|nsstring| left/right/top/bottom|可以用竖线分割表示多个边框|
 |maskToBounds
 |cornerRadius
