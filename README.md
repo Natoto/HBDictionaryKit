@@ -47,7 +47,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 | KEY | TYPE | VALUE | 备注  |
-| ------------| -----:  | :----:  |
+| ------------| -----:| -----:  | :----:  |
 |frame|  | | 
 |center| | |
 |backgroundColor| | |
@@ -69,7 +69,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UILabel style ###
 
 |KEY|TYPE|VALUE|备注|
-| ----------------------------   | -----:  | :----:  |
+| ----------------------------   | -----:  | -----:  | :----:  |
 |font
 | textColor
 | shadowColor
@@ -93,7 +93,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UITextField style ###
 
 |KEY|TYPE|VALUE|备注|
-| ----------------   | -----:  | :----:  |
+| ----------------  | -----:   | -----:  | :----:  |
 |text
 |textColor
 |fontSize;
@@ -143,7 +143,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ###UISegmentControl  style
 
 |KEY|TYPE|VALUE|备注|
-| ------------------------| -|:-----:|:----| 
+| ------------------------|  -----: |:-----:|:----| 
 |items
 |imageItems
 |numberOfSegments
