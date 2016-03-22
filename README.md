@@ -47,7 +47,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 | KEY | TYPE | VALUE | 备注  |
-| --------   | -----:  | :----:  |
+| ------------| -----:  | :----:  |
 |frame|  | | 
 |center| | |
 |backgroundColor| | |
@@ -59,7 +59,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 |KEY|TYPE|VALUE|备注|
-| --------   | -----:  | :----:  |
+| -------------   | -----------:  | :----:  |
 |direction|nsstring| left/right/top/bottom|可以用竖线分割表示多个边框|
 |maskToBounds
 |cornerRadius
@@ -69,7 +69,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UILabel style ###
 
 |KEY|TYPE|VALUE|备注|
-| --------   | -----:  | :----:  |
+| ----------------------------   | -----:  | :----:  |
 |font
 | textColor
 | shadowColor
@@ -93,7 +93,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### UITextField style ###
 
 |KEY|TYPE|VALUE|备注|
-| --------   | -----:  | :----:  |
+| ----------------   | -----:  | :----:  |
 |text
 |textColor
 |fontSize;
@@ -114,7 +114,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 ### uiimageview+hdic  style ###
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----| 
+| --------------------| -|:-----:|:----| 
 |image|nsstring|a.png
 |highlightedImage|nsstring|a.png
 |userInteractionEnabled|nsnumber|1/0|
@@ -130,7 +130,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ### Switch style
 
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----| 
+| ----------| -|:-----:|:----| 
 |onTintColor|
 |tintColor|
 |thumbTintColor|
@@ -143,7 +143,7 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 ###UISegmentControl  style
 
 |KEY|TYPE|VALUE|备注|
-| -| -|:-----:|:----| 
+| ------------------------| -|:-----:|:----| 
 |items
 |imageItems
 |numberOfSegments
