@@ -9,13 +9,14 @@
 * 使用方法 
 * pod 'UIDictionaryKit', :git => 'https://github.com/Natoto/UIDictionaryKit.git'
 
+---
 
 ### UIColor style ###
 
 |KEY|TYPE|VALUE|备注|
 | ----| -----|:-----:|:----|
-|red||||
-|blue||||
+|red|NSString|红色||
+|blue|NString|蓝色||
 |...||||
 
 
@@ -46,48 +47,48 @@ static NSString * uicolor_hbkey_brown = @"brown";//Color;      // 0.6, 0.4, 0.2 
 
 
 
-| KEY | TYPE | VALUE | 备注  |
+| KEY | TYPE | VALUE/EG | 备注  |
 | ------------| -----:| -----:  | :----:  |
-|frame|  | | 
-|center| | |
-|backgroundColor| | |
-|tag| | |
-|layer| | |
+|frame|  nsstring|{{0,1},{100,200}} |字符串表示frame| 
+|center| nsstring|{120,100} |中点
+|backgroundColor| nsstring|red/random/0xee11 |背景颜色|
+|tag|nsnumber |2 |
+|layer|nsdictionary| layer|caclyer 字典类型|
 
 
 ### CALayer ###
 
 
 |KEY|TYPE|VALUE|备注|
-| -------------   | -----------:| -----------:  | :----:  |
+| ------------- | -----------:| -----------:  | :----:  |
 |direction|nsstring| left/right/top/bottom|可以用竖线分割表示多个边框|
-|maskToBounds
-|cornerRadius
-|borderWidth
-|borderColor
+|maskToBounds|nsnumber|0/1||
+|cornerRadius|nsnumber|10|圆角弧度|
+|borderWidth|nsnumber|1|边框厚度|
+|borderColor|nsstring|gray|边框颜色|
 
 ### UILabel style ###
 
 |KEY|TYPE|VALUE|备注|
-| ----------------------------   | -----:  | -----:  | :----:  |
-|font
-| textColor
-| shadowColor
-| shadowOffset
-| textAlignment
-| lineBreakMode
-| attributedText
-| highlightedTextColor
-| highlighted|
-| userInteractionEnabled
-| enabled
-| numberOfLines
-| adjustsFontSizeToFitWidth
-| baselineAdjustment
-| minimumScaleFactor
-| allowsDefaultTighteningForTruncation
-| minimumFontSize
-| adjustsLetterSpacingToFitWidth
+| ----------------   | -----: | -----:  | :----:  |
+|fontsize|nsnumber|13|字体大小、默认字体
+| textColor|nsstring|black|字体颜色|
+| shadowColor|nsstring|gray|阴影|
+| shadowOffset|nsstring|{1,1}|阴影偏移位置|
+| textAlignment|nsstring|left/right/center| 字体的对齐方式(支持大小写)|
+| lineBreakMode|nsstring|word/char/head/middle/tail|换行的方式|
+| attributedText|NSAttributedString||暂不支持plist方式
+| highlightedTextColor|nsstring|red,...|高亮时的颜色|
+| highlighted|nsnumber|0/1|是否高亮|
+| userInteractionEnabled|nsnumber|0/1|是否支持手势有touch时候注意设置
+| enabled|nsnumber|0/1|是否可用
+| numberOfLines|nsnumber|0/2,...|最大行数
+| adjustsFontSizeToFitWidth|nsnunber|0/1|是否自动调整字体
+| baselineAdjustment|nsnumber|0/1|自动调整基准线
+| minimumScaleFactor|nsnumber|0.1|最小缩放字体的比例常与adjustsFontSizeToFitWidth合用
+| allowsDefaultTighteningForTruncation|nsnumber|0/1|for ios9+收紧字符间距已适应截断
+| minimumFontSize|nsnunber|10|最小的字体大小|
+| adjustsLetterSpacingToFitWidth|nsnunmber|0/1|自适应字体间距
 
 
 ### UITextField style ###
