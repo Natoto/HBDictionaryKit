@@ -61,6 +61,53 @@
     return NSTextAlignmentLeft;
 }
 
+//
+//typedef NS_OPTIONS(NSUInteger, UIDataDetectorTypes) {
+//    UIDataDetectorTypePhoneNumber                              = 1 << 0,          // Phone number detection
+//    UIDataDetectorTypeLink                                     = 1 << 1,          // URL detection
+//    UIDataDetectorTypeAddress NS_ENUM_AVAILABLE_IOS(4_0)       = 1 << 2,          // Street address detection
+//    UIDataDetectorTypeCalendarEvent NS_ENUM_AVAILABLE_IOS(4_0) = 1 << 3,          // Event detection
+//    
+//    UIDataDetectorTypeNone          = 0,               // No detection at all
+//    UIDataDetectorTypeAll           = NSUIntegerMax    // All types
+//} __TVOS_PROHIBITED;
+
+-(UIDataDetectorTypes)UIDataDetectorTypesFromString:(NSString *)string
+{
+    string = [string lowercaseString];
+    UIDataDetectorTypes types = UIDataDetectorTypePhoneNumber;
+    if ([string isInStrings:@"number",@"uidatadetectortypephonenumber",NULL]) {
+        types = UIDataDetectorTypePhoneNumber;
+    }
+    
+    if([string isInStrings:@"link",@"uidatadetectortypelink",NULL])
+    {
+        types = UIDataDetectorTypeLink;
+    }
+    
+    if ([string isInStrings:@"address",@"uidatadetectortypeaddress",NULL]) {
+        types = UIDataDetectorTypeAddress;
+    }
+    
+    if([string isInStrings:@"calendar",@"calendarevent",@"uidatadetectortypecalenderevent",NULL])
+    {
+        types = UIDataDetectorTypeCalendarEvent;
+    }
+    
+    if([string isInStrings:@"none",@"uidatadetectortypenone",NULL])
+    {
+        types = UIDataDetectorTypeNone;
+    }
+    
+    if([string isInStrings:@"all",@"uidatadetectortypeall",NULL])
+    {
+        types = UIDataDetectorTypeAll;
+    }
+    
+    return types;
+}
+
+
 
 //typedef NS_ENUM(NSInteger, UITextBorderStyle) {
 //    UITextBorderStyleNone,
@@ -113,6 +160,52 @@
     }
     else if([string isInStrings:@"always",@"uitextfieldviewmodewhileediting",NULL]){
         mode = UITextFieldViewModeAlways;
+    }
+    return mode;
+}
+
+
+//typedef NS_ENUM(NSInteger, UIScrollViewIndicatorStyle) {
+//    UIScrollViewIndicatorStyleDefault,     // black with white border. good against any background
+//    UIScrollViewIndicatorStyleBlack,       // black only. smaller. good against a white background
+//    UIScrollViewIndicatorStyleWhite        // white only. smaller. good against a black background
+//};
+//
+-(UIScrollViewIndicatorStyle)UIScrollViewIndicatorStyleFromString:(NSString *)string
+{
+    string = [string lowercaseString];
+    UIScrollViewIndicatorStyle  style = UIScrollViewIndicatorStyleDefault;
+    if ([string isInStrings:@"default",@"uiscrollviewindicatorstyledefault",NULL]) {
+        style = UIScrollViewIndicatorStyleDefault;
+    }
+    else if([string isInStrings:@"black",@"uiscrollviewindicatorstyleblack",NULL])
+    {
+        style = UIScrollViewIndicatorStyleBlack;
+    }
+    else if([string isInStrings:@"white",@"uiscrollviewindicatorstylewhite",NULL])
+    {
+        style = UIScrollViewIndicatorStyleWhite;
+    }
+    return style;
+}
+
+
+//typedef NS_ENUM(NSInteger, UIScrollViewKeyboardDismissMode) {
+//    UIScrollViewKeyboardDismissModeNone,
+//    UIScrollViewKeyboardDismissModeOnDrag,      // dismisses the keyboard when a drag begins
+//    UIScrollViewKeyboardDismissModeInteractive, // the keyboard follows the dragging touch off screen, and may be pulled upward again to cancel the dismiss
+//} NS_ENUM_AVAILABLE_IOS(7_0);
+
+-(UIScrollViewKeyboardDismissMode)UIScrollViewKeyboardDismissModeFromString:(NSString *)string
+{
+    string = [string lowercaseString];
+    UIScrollViewKeyboardDismissMode mode = UIScrollViewKeyboardDismissModeNone;
+    if ([string isInStrings:@"drag",@"uiscrollviewkeyboarddismissmodedrag",NULL]) {
+        mode = UIScrollViewKeyboardDismissModeOnDrag;
+    }
+    else if([string isInStrings:@"interactive",@"uiscrollviewkeyboarddismissmodeinteractive",NULL])
+    {
+        mode = UIScrollViewKeyboardDismissModeInteractive;
     }
     return mode;
 }

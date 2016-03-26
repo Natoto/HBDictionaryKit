@@ -46,6 +46,13 @@ NSLog(@"💔 --> 数据类型不一致，无法赋值 in %s %s %@ ",__FILE__,__F
 -(UITextBorderStyle)UITextBorderStyleFromString:(NSString *)string;
 
 -(UITextFieldViewMode)UITextFieldViewModeFromString:(NSString *)string;
+
+-(UIScrollViewIndicatorStyle)UIScrollViewIndicatorStyleFromString:(NSString *)string;
+
+-(UIScrollViewKeyboardDismissMode)UIScrollViewKeyboardDismissModeFromString:(NSString *)string;
+
+
+-(UIDataDetectorTypes)UIDataDetectorTypesFromString:(NSString *)string;
 @end
 
 @interface NSString(HBKey)

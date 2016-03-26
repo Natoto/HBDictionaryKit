@@ -10,7 +10,12 @@
 
 @interface UIView(HBDIC)
 
+//仅用于设置uiview类
 -(instancetype)configsuperwithdictionary:(NSDictionary *)plistdic;
+
+/**
+ * 用字典设置基于UIView类的基本属性
+ */
 -(instancetype)configwithdictionary:(NSDictionary *)plistdic;
 
 

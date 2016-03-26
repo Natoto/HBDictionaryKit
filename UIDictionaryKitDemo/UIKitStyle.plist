@@ -309,6 +309,31 @@
 		<key>rightViewMode</key>
 		<string>while</string>
 	</dict>
+	<key>uitextview</key>
+	<dict>
+		<key>font</key>
+		<string></string>
+		<key>fontsize</key>
+		<integer>0</integer>
+		<key>textColor</key>
+		<string>random</string>
+		<key>textAlignment</key>
+		<string>left</string>
+		<key>selectedRange</key>
+		<string></string>
+		<key>editable</key>
+		<false/>
+		<key>selectable</key>
+		<false/>
+		<key>dataDetectorTypes</key>
+		<string>all</string>
+		<key>allowsEditingTextAttributes</key>
+		<false/>
+		<key>clearsOnInsertion</key>
+		<false/>
+		<key>textContainerInset</key>
+		<string></string>
+	</dict>
 	<key>button</key>
 	<dict>
 		<key>layer</key>
@@ -366,6 +391,43 @@
 		<string></string>
 		<key>adjustsLetterSpacingToFitWidth</key>
 		<false/>
+	</dict>
+	<key>scrollview</key>
+	<dict>
+		<key>contentOffset</key>
+		<string></string>
+		<key>contentSize</key>
+		<string>{320,600}</string>
+		<key>contentInset</key>
+		<string></string>
+		<key>directionalLockEnabled</key>
+		<string></string>
+		<key>bounces</key>
+		<string></string>
+		<key>alwaysBounceVertical</key>
+		<false/>
+		<key>alwaysBounceHorizontal</key>
+		<false/>
+		<key>pagingEnabled</key>
+		<false/>
+		<key>scrollEnabled</key>
+		<false/>
+		<key>showsHorizontalScrollIndicator</key>
+		<false/>
+		<key>showsVerticalScrollIndicator</key>
+		<integer>0</integer>
+		<key>scrollIndicatorInsets</key>
+		<string></string>
+		<key>indicatorStyle</key>
+		<string></string>
+		<key>decelerationRate</key>
+		<string></string>
+		<key>minimumZoomScale</key>
+		<string></string>
+		<key>maximumZoomScale</key>
+		<string></string>
+		<key>zoomScale</key>
+		<string></string>
 	</dict>
 </dict>
 </plist>
