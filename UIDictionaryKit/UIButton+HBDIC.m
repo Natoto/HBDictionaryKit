@@ -9,7 +9,7 @@
 #import "UIButton+HBDIC.h"
 #import "UIControl+HBDIC.h"
 #import "UIColor+HBKey.h"
-#import "UILabel+HBDIC.h"
+//#import "UILabel+HBDIC.h"
 @implementation UIButton(HBDIC)
 
 -(instancetype)configwithdictionary:(NSDictionary *)plistdic

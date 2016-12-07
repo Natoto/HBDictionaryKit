@@ -1,0 +1,19 @@
+{
+  "name": "UIDictionaryKit",
+  "version": "0.1.1",
+  "summary": "A  Fast Style TableViewController.",
+  "homepage": "https://github.com/Natoto/UIDictionaryKit",
+  "license": "MIT",
+  "authors": {
+    "nonato ": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/Natoto/UIDictionaryKit.git",
+    "tag": "0.1.1"
+  },
+  "source_files": "UIDictionaryKit/**/*.{h,m,plist}",
+  "requires_arc": true
+}

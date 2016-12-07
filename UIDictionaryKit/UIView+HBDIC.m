@@ -11,13 +11,26 @@
 #import "UIColor+HBKey.h"
 #import "CALayer+HBDIC.h"
 #import <objc/runtime.h>
+#import "UIView+Masonry.h"
 
 @implementation UIView(HBDIC)
+
+static const void *HBView_Dictionary = &HBView_Dictionary;
+
+-(void)sethbview_dictionary:(NSDictionary *)dictionary{
+    objc_setAssociatedObject(self, HBView_Dictionary, dictionary, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+-(NSDictionary *)hbview_dictionary{
+    NSDictionary * dictionary = objc_getAssociatedObject(self, HBView_Dictionary);
+    return dictionary;
+}
+
 
 -(instancetype)configsuperwithdictionary:(NSDictionary *)plistdic
 {
     if (self && plistdic && [[plistdic class] isSubclassOfClass:[NSDictionary class]]) {
         
+        [self sethbview_dictionary:plistdic];
         //CGRectFromString 将String转成CGRect  {{x,y},{w, h}}
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, frame, if(frame.length){self.frame = CGRectFromString(frame);});
         //CGPointFromString 将String转成CGPoint 如 @”{3.0,2.5}”    {x,y}
@@ -26,9 +39,47 @@
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, tag, if(tag.integerValue){self.tag = tag.integerValue;})
         NSDictionary * layerdic = [plistdic objectForKey:@"layer"];
         [self loadBoardLayerWithLayerDic:layerdic];
+        NSDictionary * layoutdic = [plistdic objectForKey:@"Masonry"];
+        [self loadBoardMasonryLayoutWithDic:layoutdic];
+        
+        NSArray * subviews = [plistdic objectForKey:@"subviews"];
+        [self loadsubviewsWithDic:subviews];
     }
     return self;
 }
+
+-(void)loadsubviewsWithDic:(NSArray *)subviewsDic{
+    
+    if (!subviewsDic) {
+        return;
+    }
+    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj removeFromSuperview];
+    }];
+    
+    [subviewsDic enumerateObjectsUsingBlock:^(NSDictionary * obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSString * clsstr = obj[@"class"];
+        Class cls = NSClassFromString(obj[@"class"]);
+        if (!cls) {
+            cls = NSClassFromString(@"UIView");
+        }
+        UIView *view = [[cls alloc] init];
+//        if ([clsstr isEqualToString:@"UIButton"]) {
+//            view = [UIButton buttonWithType:UIButtonTypeCustom];
+//        }
+        [view configwithdictionary:obj];
+        NSNumber * tag = obj[@"tag"];
+        view.tag = tag.integerValue;
+        [self addSubview:view];
+    }];
+    
+    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSDictionary * dic = [obj hbview_dictionary];
+        [obj configwithdictionary:dic];
+    }];
+
+}
+
 
 // @{@"direction":@"left|right|top|bottom"};
 -(void)loadBoardLayerWithLayerDic:(NSDictionary *)layerdic

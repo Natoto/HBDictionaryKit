@@ -1,0 +1,8 @@
+platform :ios,'7.0'
+
+target 'UIDictionaryKitDemo' do
+source 'https://github.com/CocoaPods/Specs.git'  
+pod 'Masonry'
+pod 'UIDictionaryKit',:path=>"../UIDictionaryKit.podspec"
+end
+#注释

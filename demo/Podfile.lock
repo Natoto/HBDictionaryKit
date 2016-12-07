@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (1.0.2)
+  - UIDictionaryKit (0.1.1)
+
+DEPENDENCIES:
+  - Masonry
+  - UIDictionaryKit (from `../UIDictionaryKit.podspec`)
+
+EXTERNAL SOURCES:
+  UIDictionaryKit:
+    :path: "../UIDictionaryKit.podspec"
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  UIDictionaryKit: 9f3d02d72184ccb8bb052ccd2d484d2f31e82e09
+
+PODFILE CHECKSUM: 62e8790d41e2757d547385d9eb1c5cd231517c34
+
+COCOAPODS: 1.1.1
