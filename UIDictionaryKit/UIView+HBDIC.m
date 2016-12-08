@@ -37,6 +37,9 @@ static const void *HBView_Dictionary = &HBView_Dictionary;
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, center, if(center.length){self.center = CGPointFromString(center);});
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, backgroundColor, self.backgroundColor = [UIColor colorWithHBKeyString:backgroundColor];)
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, tag, if(tag.integerValue){self.tag = tag.integerValue;})
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, clipsToBounds, if(clipsToBounds.integerValue){self.clipsToBounds = clipsToBounds.boolValue;})
+        
+        
         NSDictionary * layerdic = [plistdic objectForKey:@"layer"];
         [self loadBoardLayerWithLayerDic:layerdic];
         NSDictionary * layoutdic = [plistdic objectForKey:@"Masonry"];
@@ -64,19 +67,23 @@ static const void *HBView_Dictionary = &HBView_Dictionary;
             cls = NSClassFromString(@"UIView");
         }
         UIView *view = [[cls alloc] init];
-//        if ([clsstr isEqualToString:@"UIButton"]) {
-//            view = [UIButton buttonWithType:UIButtonTypeCustom];
-//        }
-        [view configwithdictionary:obj];
+        
+        if ([clsstr isEqualToString:@"UIButton"]) {
+            view = [UIButton buttonWithType:UIButtonTypeCustom];
+        }
+        [view sethbview_dictionary:obj];
         NSNumber * tag = obj[@"tag"];
         view.tag = tag.integerValue;
         [self addSubview:view];
     }];
     
-    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSDictionary * dic = [obj hbview_dictionary];
-        [obj configwithdictionary:dic];
-    }];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSDictionary * dic = [obj hbview_dictionary];
+            [obj configwithdictionary:dic];
+        }];
+    });
+
 
 }
 

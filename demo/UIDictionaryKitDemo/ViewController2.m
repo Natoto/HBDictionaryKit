@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSDictionary * plistdic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"UIKitStyle" ofType:@"plist"]];
+    NSDictionary * plistdic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"UIKitStyle" ofType:@"plist" inDirectory:@"resource"]];
     [self configwithdictionary:[plistdic objectForKey:@"viewcontroller2"]];
     
     UIImageView * imgview = [UIImageView new];

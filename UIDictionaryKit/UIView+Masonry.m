@@ -9,7 +9,7 @@
 #import "UIView+Masonry.h"
 #import <Masonry/Masonry.h>
 #import <CommonCrypto/CommonCrypto.h>
-
+#import <objc/runtime.h>
 
 @implementation NSString(masnory)
 
@@ -75,13 +75,20 @@
         HBViewMasonry * mas_left = [HBViewMasonry getviewmasconstrains:@"left" superview:self.superview withstring:layoutDic[@"left"]];
         HBViewMasonry * mas_right = [HBViewMasonry getviewmasconstrains:@"right" superview:self.superview withstring:layoutDic[@"right"]];
         HBViewMasonry * mas_width = [HBViewMasonry getviewmasconstrains:@"width" superview:self.superview withstring:layoutDic[@"width"]];
-        HBViewMasonry * mas_height = [HBViewMasonry getviewmasconstrains:@"height" superview:self.superview withstring:layoutDic[@"height"]];  
-        if (mas_top || mas_bottom || mas_left || mas_right || mas_width || mas_right) {
+        HBViewMasonry * mas_height = [HBViewMasonry getviewmasconstrains:@"height" superview:self.superview withstring:layoutDic[@"height"]];
+        HBViewMasonry * mas_size = [HBViewMasonry getviewmasconstrains:@"size" superview:self.superview withstring:layoutDic[@"size"]];
+        HBViewMasonry * mas_edges = [HBViewMasonry getviewmasconstrains:@"edges" superview:self.superview withstring:layoutDic[@"edges"]];
+        HBViewMasonry * mas_center = [HBViewMasonry getviewmasconstrains:@"center" superview:self.superview withstring:layoutDic[@"center"]];
+        
+        if (mas_top || mas_bottom || mas_left || mas_right || mas_width || mas_right || mas_size || mas_edges || mas_center) {
             
             @try {
                 [self mas_remakeConstraints:^(MASConstraintMaker *make) {
                     if (mas_top) {
                         [mas_top hb_readconstrains:make];
+                    }
+                    if (mas_center) {
+                        [mas_center hb_readconstrains:make];
                     }
                     if (mas_bottom) {
                         [mas_bottom hb_readconstrains:make];
@@ -97,6 +104,12 @@
                     }
                     if (mas_height) {
                         [mas_height hb_readconstrains:make];
+                    }
+                    if (mas_edges) {
+                        [mas_edges hb_readconstrains:make];
+                    }
+                    if (mas_size) {
+                        [mas_size hb_readconstrains:make];
                     }
                 }];
             } @catch (NSException *exception) {
@@ -125,7 +138,9 @@
     }
     return view;
 }
-
+/**
+ * 通过json设置
+ */
 +(HBViewMasonry *)hbviewmas:(NSString *)direction
                   superview:(UIView *)superview
                 fromjsonstr:(NSString *)jsonstr {
@@ -151,9 +166,23 @@
     viewobj.offset = dictionary[@"offset"];//@(offsetstr.floatValue);
     viewobj.tokey = dictionary[@"tokey"];//tokey;
     
+    NSString * sizeOffsetstr = dictionary[@"sizeoffset"];
+    viewobj.sizeOffset = sizeOffsetstr? sizeOffsetstr: @"{0,0}";
+   
+    NSString * centeroffsetstr = dictionary[@"centeroffset"];
+    viewobj.centeroffset = centeroffsetstr?centeroffsetstr: @"{0,0}";
+ 
+    NSString * insetsstr = dictionary[@"insets"];
+    viewobj.insets = insetsstr?insetsstr:@"{0,0,0,0}";
+    
+    NSString * sizestr = dictionary[@"size"];
+    viewobj.size = sizestr;
     return viewobj;
 }
 
+/**
+ * 创建自定义约束类
+ */
 //TAG.left,offset
 +(HBViewMasonry *)getviewmasconstrains:(NSString *)direction
                           superview:(UIView *)superview
@@ -214,9 +243,13 @@
     return nil;
 }
 
+/**
+ * 设置约束 放到make block 里面
+ */
 -(MASConstraint *)hb_readconstrains:(MASConstraintMaker *)make {
-    MASConstraint * makecons0 = [self hb_conbain_make:make forkey:self.direction];
     
+    NSLog(@"\n\n %s --> desc \n%@ ",__func__,self.description);
+    MASConstraint * makecons0 = [self hb_conbain_make:make forkey:self.direction];
     
         if ([self.direction isEqualToString:@"width"] || [self.direction isEqualToString:@"height"]) {
             
@@ -225,15 +258,41 @@
                 return  makecons1;
             }
             else{
-                MASConstraint * makeconsto = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]).multipliedBy(self.multipliedBy.floatValue);
-                return makeconsto;
+                MASConstraint * makecons_to = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]).multipliedBy(self.multipliedBy.floatValue);
+                return makecons_to;
             }
 
         }
+        else if([self.direction isEqualToString:@"size"]){
+            
+            CGSize offsetsize = CGSizeFromString(self.sizeOffset);
+            MASConstraint * makecons_to;
+            if (self.size) {
+                CGSize size = CGSizeFromString(self.size);
+                size.width = size.width>0?size.width:(self.toview.frame.size.width + size.width);
+                size.height = size.height>0?size.height:(self.toview.frame.size.height + size.height);
+                makecons_to = makecons0.mas_equalTo(size);
+            }else{
+                makecons_to = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]).sizeOffset(offsetsize);
+            }
+            return makecons_to;
+        }
+        else if([self.direction isEqualToString:@"center"]){
+            CGPoint offsetsize = CGPointFromString(self.centeroffset);
+            MASConstraint * makecons_to = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]).centerOffset(offsetsize);
+            return makecons_to;
+        }
+        else if([self.direction isEqualToString:@"edges"]){
+            
+            UIEdgeInsets  insets = UIEdgeInsetsFromString(self.insets);
+            MASConstraint * makecons_to = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]).insets(insets);
+//            MASConstraint * makecons_to = make.edges.equalTo(self.toview);
+            return makecons_to;
+        }
         else{
             
-            MASConstraint * makeconsto = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]);
-            MASConstraint * makecons1 = makeconsto.offset(self.offset.floatValue);
+            MASConstraint * makecons_to = makecons0.equalTo([self hb_view_mas_attr:self.toview forkey:self.tokey]);
+            MASConstraint * makecons1 = makecons_to.offset(self.offset.floatValue);
             return  makecons1;
         }
    
@@ -247,7 +306,7 @@
 
 -(MASConstraint *)hb_conbain_make:(MASConstraintMaker *)make forkey:(NSString *)key{
     
-    MASConstraint * constrain;
+    MASConstraint * constrain = make;
     if (!key) {
         return make;
     }
@@ -265,13 +324,17 @@
         constrain = make.height;
     }else if ([key isEqualToString:@"center"]) {
         constrain = make.center;
+    }else if ([key isEqualToString:@"edges"]) {
+        constrain = make.edges;
+    }else if ([key isEqualToString:@"size"]) {
+        constrain = make.size;
     }
     return constrain;
 }
 
 -(MASViewAttribute *)hb_view_mas_attr:(UIView *)make forkey:(NSString *)key{
     
-    MASViewAttribute *constrain;
+    MASViewAttribute *constrain = make;
     if (!key) {
         return make;
     }
@@ -290,5 +353,47 @@
     }
     return constrain;
 }
+
+
+
+- (NSString *)description
+{
+    NSMutableString * desc = [NSMutableString string];
+    
+    Class rootClass = [self class];
+    
+//    for ( Class clazzType = [self class];; )
+//    {
+        Class clazzType = [self class];
+        unsigned int		propertyCount = 0;
+        objc_property_t *	properties = class_copyPropertyList( clazzType, &propertyCount );
+        
+        for ( NSUInteger i = 0; i < propertyCount; i++ )
+        {
+            const char *	name = property_getName(properties[i]);
+            NSString *		propertyName = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
+            NSObject *		propertyValue = [self valueForKey:propertyName];
+            if([propertyName description])
+                [desc appendString:[propertyName description]];
+            [desc appendString:@":"];
+            
+            if(propertyValue && [propertyValue description])
+                [desc appendString:[propertyValue description]];
+            [desc appendString:@"\n"];
+        }
+        
+        free( properties );
+        
+//        clazzType = class_getSuperclass( clazzType );
+//        if ( nil == clazzType )
+//            break;
+    
+//        if ( clazzType == rootClass )
+//            break;
+//    }
+    
+    return desc; //[super description];
+}
+
 
 @end

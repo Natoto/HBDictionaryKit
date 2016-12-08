@@ -22,8 +22,11 @@
 @property (nonatomic, strong) NSString * direction;
 @property (nonatomic, strong) NSString * tokey;   /* 相当于：mas_top ps: make.top.equalTo(<#view#>.mas_top).with.offset(<#num#>);   */
 @property (nonatomic, strong) NSNumber * offset;
-@property (nonatomic, strong) NSNumber * multipliedBy; //倍数
-
+@property (nonatomic, strong) NSString * size;
+@property (nonatomic, strong) NSNumber * multipliedBy; //倍数 修饰宽高度的{"multipliedBy":1}
+@property (nonatomic, strong) NSString * sizeOffset;    //用于修饰size的 小于0则默认跟父类一样 {"sizeOffset","{0,0}"}
+@property (nonatomic, strong) NSString * centeroffset;  //{"centeroffset","{0,0}"}
+@property (nonatomic, strong) NSString * insets;        //用于修饰edges {"insets","{0,0,0,0}"}
 -(UIView *)toview;
 
 //TAG.left,offset

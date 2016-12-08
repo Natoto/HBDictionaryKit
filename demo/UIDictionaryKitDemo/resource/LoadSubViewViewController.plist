@@ -12,21 +12,21 @@
 			<key>class</key>
 			<string>UIView</string>
 			<key>tag</key>
-			<integer>4</integer>
+			<integer>11</integer>
 			<key>Masonry</key>
 			<dict>
 				<key>top</key>
 				<string>,70</string>
 				<key>left</key>
-				<string>,0</string>
+				<string>,10</string>
 				<key>right</key>
-				<string>,0</string>
-				<key>bottom</key>
 				<string>,-10</string>
+				<key>bottom</key>
+				<string></string>
 				<key>width</key>
 				<string></string>
 				<key>height</key>
-				<string></string>
+				<string>{&quot;multipliedBy&quot;:0.5}</string>
 			</dict>
 			<key>layer</key>
 			<dict>
@@ -40,7 +40,7 @@
 				<true/>
 			</dict>
 			<key>backgroundColor</key>
-			<string>green</string>
+			<string>white</string>
 			<key>text</key>
 			<string>第二个label</string>
 			<key>subviews</key>
@@ -58,7 +58,7 @@
 						<integer>1</integer>
 					</dict>
 					<key>backgroundColor</key>
-					<string>black</string>
+					<string>gray</string>
 					<key>class</key>
 					<string>UIButton</string>
 					<key>image</key>
@@ -72,18 +72,94 @@
 						<key>right</key>
 						<string>,-10</string>
 						<key>bottom</key>
-						<string>,-10</string>
+						<string></string>
+						<key>width</key>
+						<string>,200</string>
+						<key>height</key>
+						<string>,100</string>
+					</dict>
+					<key>tag</key>
+					<integer>1</integer>
+					<key>highlightedBackgroundColor</key>
+					<string>random</string>
+					<key>highlightedTitleColor</key>
+					<string>red</string>
+					<key>enabled</key>
+					<true/>
+					<key>title</key>
+					<string>我是button</string>
+					<key>text</key>
+					<string>我是Label</string>
+					<key>fontsize</key>
+					<integer>20</integer>
+					<key>textColor</key>
+					<string>black</string>
+					<key>frame</key>
+					<string>{{10,10},{320,50}}</string>
+					<key>shadowColor</key>
+					<string>blue</string>
+					<key>shadowOffset</key>
+					<string>{3,0}</string>
+					<key>textAlignment</key>
+					<string>center</string>
+					<key>lineBreakMode</key>
+					<string></string>
+					<key>highlightedTextColor</key>
+					<string>blue</string>
+					<key>highlighted</key>
+					<string></string>
+					<key>userInteractionEnabled</key>
+					<string></string>
+					<key>numberOfLines</key>
+					<integer>2</integer>
+					<key>adjustsFontSizeToFitWidth</key>
+					<string>1</string>
+					<key>baselineAdjustment</key>
+					<string></string>
+					<key>minimumScaleFactor</key>
+					<string></string>
+					<key>allowsDefaultTighteningForTruncation</key>
+					<string></string>
+					<key>adjustsLetterSpacingToFitWidth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>layer</key>
+					<dict>
+						<key>borderColor</key>
+						<string>random</string>
+						<key>maskToBounds</key>
+						<true/>
+						<key>cornerRadius</key>
+						<string>20</string>
+						<key>borderWidth</key>
+						<integer>1</integer>
+					</dict>
+					<key>backgroundColor</key>
+					<string>green</string>
+					<key>class</key>
+					<string>UILabel</string>
+					<key>tag</key>
+					<integer>2</integer>
+					<key>highlightedBackgroundColor</key>
+					<string>random</string>
+					<key>Masonry</key>
+					<dict>
+						<key>top</key>
+						<string>1.bottom,10</string>
+						<key>left</key>
+						<string>1,0</string>
+						<key>right</key>
+						<string>1.right,0</string>
+						<key>bottom</key>
+						<string></string>
 						<key>width</key>
 						<string></string>
 						<key>height</key>
-						<string></string>
+						<string>,70</string>
 					</dict>
-					<key>tag</key>
-					<integer>3</integer>
-					<key>highlightedBackgroundColor</key>
-					<string>random</string>
 					<key>text</key>
-					<string></string>
+					<string>我是Label</string>
 					<key>highlightedTitleColor</key>
 					<string>red</string>
 					<key>enabled</key>
@@ -95,7 +171,246 @@
 					<key>textColor</key>
 					<string>black</string>
 					<key>frame</key>
-					<string>{{10,10},{320,50}}</string>
+					<string>{{10,490},{320,50}}</string>
+					<key>shadowColor</key>
+					<string>blue</string>
+					<key>shadowOffset</key>
+					<string>{0,0}</string>
+					<key>textAlignment</key>
+					<string>center</string>
+					<key>lineBreakMode</key>
+					<string></string>
+					<key>highlightedTextColor</key>
+					<string>blue</string>
+					<key>highlighted</key>
+					<string></string>
+					<key>userInteractionEnabled</key>
+					<string></string>
+					<key>numberOfLines</key>
+					<integer>2</integer>
+					<key>adjustsFontSizeToFitWidth</key>
+					<string>1</string>
+					<key>baselineAdjustment</key>
+					<string></string>
+					<key>minimumScaleFactor</key>
+					<string></string>
+					<key>allowsDefaultTighteningForTruncation</key>
+					<string></string>
+					<key>adjustsLetterSpacingToFitWidth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>layer</key>
+					<dict>
+						<key>borderColor</key>
+						<string>random</string>
+						<key>maskToBounds</key>
+						<true/>
+						<key>cornerRadius</key>
+						<string>20</string>
+						<key>borderWidth</key>
+						<integer>1</integer>
+					</dict>
+					<key>Masonry</key>
+					<dict>
+						<key>top</key>
+						<string>2.bottom,10</string>
+						<key>left</key>
+						<string>1,10</string>
+						<key>right</key>
+						<string>1,-10</string>
+						<key>bottom</key>
+						<string></string>
+						<key>width</key>
+						<string></string>
+						<key>height</key>
+						<string>,90</string>
+					</dict>
+					<key>backgroundColor</key>
+					<string>black</string>
+					<key>class</key>
+					<string>UIImageView</string>
+					<key>image</key>
+					<string>qqshow_787038442</string>
+					<key>tag</key>
+					<integer>3</integer>
+					<key>highlightedBackgroundColor</key>
+					<string>random</string>
+					<key>text</key>
+					<string>我是Label</string>
+					<key>highlightedTitleColor</key>
+					<string>red</string>
+					<key>enabled</key>
+					<true/>
+					<key>title</key>
+					<string>我是button</string>
+					<key>fontsize</key>
+					<integer>20</integer>
+					<key>textColor</key>
+					<string>black</string>
+					<key>frame</key>
+					<string>{{10,490},{320,50}}</string>
+					<key>shadowColor</key>
+					<string>blue</string>
+					<key>shadowOffset</key>
+					<string>{3,0}</string>
+					<key>textAlignment</key>
+					<string>center</string>
+					<key>lineBreakMode</key>
+					<string></string>
+					<key>highlightedTextColor</key>
+					<string>blue</string>
+					<key>highlighted</key>
+					<string></string>
+					<key>userInteractionEnabled</key>
+					<string></string>
+					<key>numberOfLines</key>
+					<integer>2</integer>
+					<key>adjustsFontSizeToFitWidth</key>
+					<string>1</string>
+					<key>baselineAdjustment</key>
+					<string></string>
+					<key>minimumScaleFactor</key>
+					<string></string>
+					<key>allowsDefaultTighteningForTruncation</key>
+					<string></string>
+					<key>adjustsLetterSpacingToFitWidth</key>
+					<false/>
+				</dict>
+			</array>
+			<key>fontsize</key>
+			<integer>30</integer>
+			<key>textColor</key>
+			<string>green</string>
+			<key>frame</key>
+			<string></string>
+			<key>clipsToBounds</key>
+			<integer>0</integer>
+			<key>shadowColor</key>
+			<string>red</string>
+			<key>highlightedTextColor</key>
+			<string>blue</string>
+			<key>shadowOffset</key>
+			<string>{0,0}</string>
+			<key>textAlignment</key>
+			<string>center</string>
+			<key>enabled</key>
+			<true/>
+			<key>numberOfLines</key>
+			<integer>2</integer>
+			<key>adjustsFontSizeToFitWidth</key>
+			<string>1</string>
+			<key>lineBreakMode</key>
+			<string></string>
+			<key>highlighted</key>
+			<string></string>
+			<key>userInteractionEnabled</key>
+			<string></string>
+			<key>baselineAdjustment</key>
+			<string></string>
+			<key>minimumScaleFactor</key>
+			<string></string>
+			<key>allowsDefaultTighteningForTruncation</key>
+			<string></string>
+			<key>adjustsLetterSpacingToFitWidth</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>UIScrollView</string>
+			<key>tag</key>
+			<integer>4</integer>
+			<key>Masonry</key>
+			<dict>
+				<key>top</key>
+				<string>11.bottom,10</string>
+				<key>left</key>
+				<string>,10</string>
+				<key>right</key>
+				<string>,-10</string>
+				<key>bottom</key>
+				<string>,-10</string>
+				<key>width</key>
+				<string></string>
+				<key>center</key>
+				<string></string>
+				<key>size</key>
+				<string></string>
+				<key>height</key>
+				<string></string>
+			</dict>
+			<key>layer</key>
+			<dict>
+				<key>borderColor</key>
+				<string>random</string>
+				<key>cornerRadius</key>
+				<string>5</string>
+				<key>borderWidth</key>
+				<integer>1</integer>
+				<key>maskToBounds</key>
+				<true/>
+			</dict>
+			<key>backgroundColor</key>
+			<string>brown</string>
+			<key>text</key>
+			<string>第二个label</string>
+			<key>subviews</key>
+			<array>
+				<dict>
+					<key>layer</key>
+					<dict>
+						<key>borderColor</key>
+						<string>random</string>
+						<key>maskToBounds</key>
+						<true/>
+						<key>cornerRadius</key>
+						<string>20</string>
+						<key>borderWidth</key>
+						<integer>1</integer>
+					</dict>
+					<key>backgroundColor</key>
+					<string>blue</string>
+					<key>Masonry</key>
+					<dict>
+						<key>top</key>
+						<string></string>
+						<key>left</key>
+						<string></string>
+						<key>size</key>
+						<string>{&quot;size&quot;:&quot;{-40,800}&quot;}</string>
+						<key>edges</key>
+						<string>{&quot;insets&quot;:&quot;{10,20,10,20}&quot;}</string>
+						<key>right</key>
+						<string></string>
+						<key>bottom</key>
+						<string></string>
+						<key>width</key>
+						<string></string>
+						<key>height</key>
+						<string></string>
+					</dict>
+					<key>class</key>
+					<string>UIView</string>
+					<key>image</key>
+					<string>qqshow_787038442</string>
+					<key>tag</key>
+					<integer>4</integer>
+					<key>highlightedBackgroundColor</key>
+					<string>random</string>
+					<key>text</key>
+					<string>我是Label</string>
+					<key>highlightedTitleColor</key>
+					<string>red</string>
+					<key>enabled</key>
+					<true/>
+					<key>title</key>
+					<string>我是button</string>
+					<key>fontsize</key>
+					<integer>20</integer>
+					<key>textColor</key>
+					<string>black</string>
+					<key>frame</key>
+					<string>{{10,490},{320,50}}</string>
 					<key>shadowColor</key>
 					<string>blue</string>
 					<key>shadowOffset</key>
@@ -454,107 +769,36 @@
 			<integer>1</integer>
 		</dict>
 		<key>backgroundColor</key>
-		<string>black</string>
+		<string>blue</string>
 		<key>class</key>
-		<string>UIButton</string>
+		<string>UIView</string>
+		<key>image</key>
+		<string>qqshow_787038442</string>
 		<key>tag</key>
-		<integer>2</integer>
+		<integer>4</integer>
 		<key>highlightedBackgroundColor</key>
 		<string>random</string>
 		<key>Masonry</key>
 		<dict>
 			<key>top</key>
-			<string>1.bottom,10</string>
+			<string>,10</string>
 			<key>left</key>
-			<string>1,0</string>
-			<key>right</key>
+			<string>,10</string>
+			<key>size</key>
 			<string></string>
-			<key>bottom</key>
+			<key>edges</key>
 			<string></string>
-			<key>width</key>
-			<string>{&quot;multipliedBy&quot;:0.45}</string>
-			<key>height</key>
-			<string>,70</string>
-		</dict>
-		<key>text</key>
-		<string></string>
-		<key>highlightedTitleColor</key>
-		<string>red</string>
-		<key>enabled</key>
-		<true/>
-		<key>title</key>
-		<string>我是button</string>
-		<key>fontsize</key>
-		<integer>20</integer>
-		<key>textColor</key>
-		<string>black</string>
-		<key>frame</key>
-		<string>{{10,490},{320,50}}</string>
-		<key>shadowColor</key>
-		<string>blue</string>
-		<key>shadowOffset</key>
-		<string>{3,0}</string>
-		<key>textAlignment</key>
-		<string>center</string>
-		<key>lineBreakMode</key>
-		<string></string>
-		<key>highlightedTextColor</key>
-		<string>blue</string>
-		<key>highlighted</key>
-		<string></string>
-		<key>userInteractionEnabled</key>
-		<string></string>
-		<key>numberOfLines</key>
-		<integer>2</integer>
-		<key>adjustsFontSizeToFitWidth</key>
-		<string>1</string>
-		<key>baselineAdjustment</key>
-		<string></string>
-		<key>minimumScaleFactor</key>
-		<string></string>
-		<key>allowsDefaultTighteningForTruncation</key>
-		<string></string>
-		<key>adjustsLetterSpacingToFitWidth</key>
-		<false/>
-	</dict>
-	<key>New item - 4</key>
-	<dict>
-		<key>layer</key>
-		<dict>
-			<key>borderColor</key>
-			<string>random</string>
-			<key>maskToBounds</key>
-			<true/>
-			<key>cornerRadius</key>
-			<string>20</string>
-			<key>borderWidth</key>
-			<integer>1</integer>
-		</dict>
-		<key>backgroundColor</key>
-		<string>black</string>
-		<key>class</key>
-		<string>UIButton</string>
-		<key>tag</key>
-		<integer>3</integer>
-		<key>highlightedBackgroundColor</key>
-		<string>random</string>
-		<key>Masonry</key>
-		<dict>
-			<key>top</key>
-			<string>1.bottom,10</string>
-			<key>left</key>
-			<string>2.right,0</string>
 			<key>right</key>
-			<string>1.right,0</string>
+			<string>,-10</string>
 			<key>bottom</key>
 			<string></string>
 			<key>width</key>
 			<string></string>
 			<key>height</key>
-			<string>,70</string>
+			<string>,100</string>
 		</dict>
 		<key>text</key>
-		<string></string>
+		<string>我是Label</string>
 		<key>highlightedTitleColor</key>
 		<string>red</string>
 		<key>enabled</key>
