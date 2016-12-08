@@ -2,8 +2,8 @@
 //  UIView+HBDIC.m
 //  UIDictionaryKitDemo
 //
-//  Created by BooB on 16/3/20.
-//  Copyright © 2016年 BooB. All rights reserved.
+//  Created by Natoto on 16/3/20.
+//  Copyright © 2016年 YY.COM. All rights reserved.
 //
 
 #import "UIView+HBDIC.h"
