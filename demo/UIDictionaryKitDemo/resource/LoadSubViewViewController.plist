@@ -18,9 +18,9 @@
 				<key>top</key>
 				<string>,70</string>
 				<key>left</key>
-				<string>,10</string>
+				<string>,20</string>
 				<key>right</key>
-				<string>,-10</string>
+				<string>,-20</string>
 				<key>bottom</key>
 				<string></string>
 				<key>width</key>
@@ -87,7 +87,7 @@
 					<key>enabled</key>
 					<true/>
 					<key>title</key>
-					<string>我是button</string>
+					<string>我是button1</string>
 					<key>text</key>
 					<string>我是Label</string>
 					<key>fontsize</key>
@@ -369,7 +369,7 @@
 						<integer>1</integer>
 					</dict>
 					<key>backgroundColor</key>
-					<string>blue</string>
+					<string>random</string>
 					<key>Masonry</key>
 					<dict>
 						<key>top</key>
@@ -377,9 +377,9 @@
 						<key>left</key>
 						<string></string>
 						<key>size</key>
-						<string>{&quot;size&quot;:&quot;{-40,800}&quot;}</string>
+						<string>{&quot;size&quot;:&quot;{-40,400}&quot;}</string>
 						<key>edges</key>
-						<string>{&quot;insets&quot;:&quot;{10,20,10,20}&quot;}</string>
+						<string>{&quot;insets&quot;:&quot;{20,40,10,20}&quot;}</string>
 						<key>right</key>
 						<string></string>
 						<key>bottom</key>
