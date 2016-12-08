@@ -2,14 +2,51 @@
 
 # UIDictionKit 键值对编程
 
-标签（空格分隔）： UIDictionKit key plist
+标签（空格分隔）： UIDictionKit
 
 ---
 * 键值对编程，可以用plist文件设置属性，可以用dictionary设置样式，并且用kvo监听其变化从而更新
 * 使用方法 
 * pod 'UIDictionaryKit', :git => 'https://github.com/Natoto/UIDictionaryKit.git'
+* or
+* pod 'UIDictionaryKit', :git => 'https://github.com/Natoto/UIDictionaryKit.git',tag=>'0.1.11'
+
+![image] (https://github.com/Natoto/UIDictionaryKit/blob/master/demo/uidictionarykit.gif?raw=true)
 
 ---
+### UIView + Masnory ###
+
+```objc
+@interface HBViewMasonry : NSObject
+@property (nonatomic, weak)     UIView * hbsuperview;
+@property (nonatomic, strong) NSNumber * toviewtag;
+@property (nonatomic, strong) NSString * direction;
+@property (nonatomic, strong) NSString * tokey;   /* 相当于：mas_top ps: make.top.equalTo(<#view#>.mas_top).with.offset(<#num#>);   */
+@property (nonatomic, strong) NSNumber * offset;      //设置偏移量
+@property (nonatomic, strong) NSString * size;         //设置size
+@property (nonatomic, strong) NSNumber * multipliedBy; //倍数 修饰宽高度的{"multipliedBy":1}
+@property (nonatomic, strong) NSString * sizeOffset;    //用于修饰size的 小于0则默认跟父类一样 {"sizeOffset","{0,0}"}
+@property (nonatomic, strong) NSString * centeroffset;  //{"centeroffset","{0,0}"}
+@property (nonatomic, strong) NSString * insets;        //用于修饰edges {"insets","{0,0,0,0}"}
+-(UIView *)toview;
+
+//TAG.left,offset
++(HBViewMasonry *)getviewmasconstrains:(NSString *)direction
+                             superview:(UIView *)superview
+                            withstring:(NSString *)topstr;
+
+-(MASConstraint *)hb_readconstrains:(MASConstraintMaker *)make;
+
+@end
+```
+>
+>支持设置方式json，或简单语句
+>1.json 如{  "toviewtag": 14234, "direction": "top", "tokey": "left", "offset": 34, "multipliedBy": 0.2} 
+           
+>2.格式：tag.top|left|right|bottom,offset
+>make.top.equalTo(to_topview.mas_top).with.offset(to_topview_offset.floatValue);
+
+
 
 ### UIColor style ###
 
