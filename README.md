@@ -9,7 +9,7 @@
 * 使用方法 
 * pod 'UIDictionaryKit', :git => 'https://github.com/Natoto/UIDictionaryKit.git'
 * or
-* pod 'UIDictionaryKit', :git => 'https://github.com/Natoto/UIDictionaryKit.git',tag=>'0.1.11'
+* pod 'UIDictionaryKit', :git => 'https://github.com/Natoto/UIDictionaryKit.git',tag=>'0.1.3'
 
 ![image] (https://github.com/Natoto/UIDictionaryKit/blob/master/demo/uidictionarykit.gif?raw=true)
 
