@@ -1,8 +1,8 @@
-# UIDictionaryKit
+# HBDictionKit
 
-# UIDictionKit 键值对编程
+# HBDictionKit 键值对编程
 
-标签（空格分隔）： UIDictionKit
+标签（空格分隔）： HBDictionKit
 
 ---
 * 键值对编程，可以用plist文件设置属性，可以用dictionary设置样式，并且用kvo监听其变化从而更新

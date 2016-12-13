@@ -8,7 +8,7 @@
 
 #import "LoadSubViewViewController.h"
 #import "HBDirWatchdog.h"
-#import <UIDictionaryKit/UIDictionaryKit.h>
+#import <HBDictionaryKit/HBDictionaryKit.h>
 
 @interface LoadSubViewViewController ()
 {

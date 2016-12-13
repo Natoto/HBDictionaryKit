@@ -7,251 +7,214 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0259B814041916D623EFF1AAF067D1AD /* UITextView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF2A90789B94035DAA679B68D4B7EBA /* UITextView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */; };
-		1511052B6DCD4A4D96AFCF79861BCBB6 /* UILabel+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 225B5A0DA763147EC0882F31829A9047 /* UILabel+HBDIC.m */; };
-		1EC363D6911160B063DB6CC87F595A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21AFBBADB12867905F7CC22D0DFDB973 /* UISwitch+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AE5C0ECEB7345EEEA72625BBE819E7 /* UISwitch+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2504627A041AA63F442A7A4E6749B204 /* UIDictionaryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 165FD914931CDD111AE4A3907B549A96 /* UIDictionaryKit-dummy.m */; };
-		280ECC0EB7262D70F52EBB59D59DB745 /* UITextField+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0126428A49B657A2E55D7C1B8F324F73 /* UITextField+HBDIC.m */; };
-		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */; };
-		323A1CE172BA725D2D13FB19448A081A /* UIView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 282D12510D4A0B73BAA26ECB203616CE /* UIView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36C7D42E1E964C2C19C4B21B806B38EA /* UISegmentedControl+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = F0250757B70023556E6B24A9667D9026 /* UISegmentedControl+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AA150F75E3C0DE2B24BC56D83557055 /* UITextField+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = C096B0898D321483DBD5F64659FD9E97 /* UITextField+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		3FCA0A5BC4A4E856D357A25D4975C2B1 /* UISwitch+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 173ECE15CCA4A2949712D150F42E3F56 /* UISwitch+HBDIC.m */; };
-		44A5A09C9F4DB72AA94ABDC13B4C3481 /* HBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 039E198E66AEEF2858C16DF25893E8AF /* HBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BAE8EB438D95EBEAAB303E001E9AFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		4C8271B81ADA9EFC54F3922D2D193D15 /* UIColor+HBKey.h in Headers */ = {isa = PBXBuildFile; fileRef = E530573E02032B509E5C0948DAB1BE0E /* UIColor+HBKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		562DD8DFE9EE248C993148EF23D7DEE8 /* UIDictionaryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F7F1F0AC5E5A0B92DEFC99CD7EC4A1 /* UIDictionaryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		566EA65277D377CE9AF9BC125521965B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		57C68AEC3BE7801202ADB77A263B0E11 /* UIButton+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5848F9FE73DD31278C132620B97AC8FF /* UIButton+HBDIC.m */; };
-		591E5A70D70E52CB0B6B32CD43BCB462 /* UIViewController+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF77C8A7E4B076A28812B9BF07CA41 /* UIViewController+HBDIC.m */; };
-		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */; };
-		6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */; };
-		765B014F4AD0E753B80197D1C1C551C2 /* UITableView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7205818D48666AE6A4E77CCA83A2B /* UITableView+HBDIC.m */; };
-		76DE979A67C94A318F672093D3DEB5DE /* HBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BE9AE4B2DBC4D45D817A72B57E901A /* HBKVOController.m */; };
-		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */; };
-		86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */; };
-		8A66F13B5E09B23B3E3C24DC0BF28BD7 /* UIControl+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E64818CDEE8BD6705ADC955FA0A291E /* UIControl+HBDIC.m */; };
-		8DB453A96E278E50E837BEAD4DD43BAD /* UITextView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9616857D02387839DCC42761EE08388 /* UITextView+HBDIC.m */; };
-		92C750DC4122A74B4B6C4F54803A1423 /* CALayer+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D137F1DE5474510ED1CC07FBAC18A8 /* CALayer+HBDIC.m */; };
-		93F16EE0F83FADB82CD1D54C1673930C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		941F4500741550F1A294702933C4F5C2 /* Pods-UIDictionaryKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11587C935F6AFB90BD877C274AEBF295 /* Pods-UIDictionaryKitDemo-dummy.m */; };
-		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */; };
-		970C6A4531F734D6CD2ABFA9ABC29201 /* UIColor+HBKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 510CA1B68327A05474F632FB0946089B /* UIColor+HBKey.m */; };
-		983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98FDB537451216C5A37639C8C4D98767 /* UIImageView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = F886450316A83680EE46615E7D724306 /* UIImageView+HBDIC.m */; };
-		9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */; };
-		A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98650FEA9177313D22C8704DD99862C /* NSObject+HBKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46CCDE6DE24BFBE8AF41FA8C3E486D /* NSObject+HBKey.m */; };
-		AA6D589604B5CF791F5DF0B8733184AD /* NSObject+HBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB5BDDAF0503FF27E5052E3C06B4D68 /* NSObject+HBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE32198B991BF2F91155E6FC251443AE /* UILabel+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 301EC2866725E4F447AE8D45665A61A2 /* UILabel+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D38B6CD08ED191D2BAE4830617A683F1 /* UIViewController+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8D9387AA67EE33BFA6BDC65CA86CC8 /* UIViewController+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4F8B6E95C99F5AD456424F551710499 /* UIScrollView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = C01AC5417155B032FBA339804F6C56CC /* UIScrollView+HBDIC.m */; };
-		D632E358ACB73CB0059EF37128224D65 /* UIImageView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B33FDCF4B8E6CDBEE1E7218D0BAD1A7 /* UIImageView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */; };
-		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */; };
-		E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE23E70FF64ACC81816A368E171B903 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E34CB2BF57776D909822F694D07F87EE /* CALayer+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EFC4420E1626CEDF4C6BEDF3F38336 /* CALayer+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3FB259C07DAE1625327684773744043 /* UIControl+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EAAD04CB2904F6400F37306C78B510 /* UIControl+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5F54DAE80F149689EE366DAD3ABDB34 /* NSObject+HBKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 1970A6C0ACF87FF0F067FD6004A19808 /* NSObject+HBKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F28D49388337148949A92483E5500ABE /* UITableView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB625D32D443938AA07A2161D065FDF /* UITableView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2A2828735ED53C1B7A22555744D1D4A /* UIScrollView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B592E21809CBFF71E361FCDAB8D4CD /* UIScrollView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F85A881DCE75258104DC056C0BB881E5 /* UIButton+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F40FDDA7D542048E3B71321405BFF92 /* UIButton+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F866931F1DF7B45C0077ABD1 /* UIView+Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F866931D1DF7B45C0077ABD1 /* UIView+Masonry.h */; };
-		F86693201DF7B45C0077ABD1 /* UIView+Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = F866931E1DF7B45C0077ABD1 /* UIView+Masonry.m */; };
-		F98E84055E468F130E44459845223232 /* UISegmentedControl+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F7AED3FC52C4773084CEA0A1E3F172 /* UISegmentedControl+HBDIC.m */; };
-		FE1E1DA29B078B9628CCDD4EDA48ABAA /* UIView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DA7E42387EE337917C6452D2BD301D /* UIView+HBDIC.m */; };
-		FEA947FFA091AF3130A8B584864DB0E0 /* NSObject+HBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = A267B7B032EED8120F33DB213EAF4086 /* NSObject+HBKVOController.m */; };
+		00F75FB5B541761723BF9706B17E9A02 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		014F2ADB2A86552D10FB51789F9F8CA7 /* UIView+Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8B720A9BDFC3E6B3CC61E6D6A2A906 /* UIView+Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0526607DE89A9DDE7ADBD78227C96683 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */; };
+		0A2FEAB6615A16AC89910B343F684997 /* NSObject+HBKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FA7B551030C1742AF0AD66118CDF5 /* NSObject+HBKey.m */; };
+		0B69A69EABC6E8AC133ED51E707E8155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0C0665A6CDDB20019502B7D519ABC6A1 /* UIControl+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D0B980B8E5FECC301FD569402273D0 /* UIControl+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C8CE5E1EA1327AA471280D05AC69DEA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA75D5DDF960AF0DE8345E403C24AF8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D4C632F05B1F4D3BC195CFF9274A81 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129B0CDCBDFF0D2B091F536F9D6BD759 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */; };
+		153853134DBA4F397989E8A0EEE23D49 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7E2CC895EA73CF1F9918BDF784BE97 /* Pods-UIDictionaryKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11587C935F6AFB90BD877C274AEBF295 /* Pods-UIDictionaryKitDemo-dummy.m */; };
+		215F898A1BA8FE93DDCF1E6DC6B8FEC4 /* UITextView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDDE5E03F54E8B43F51647E1F03F5A0 /* UITextView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F2A570F3308AD3383202CBE21475FF /* HBDictionaryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E95B777134259FDD93DA2FAEFA1BD58 /* HBDictionaryKit-dummy.m */; };
+		2319665153FF87AE8BE61F8A0AD7C74D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */; };
+		240BAA256385AA242647ACEBE072A8F7 /* NSObject+HBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F3A1B2DA95192B8D5F39B9FE831EC /* NSObject+HBKVOController.m */; };
+		253B36EC425405B2669835384637672B /* UIViewController+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9A92F809D807668A3C05E9FB7857CC /* UIViewController+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2603A955839105D4E84245A218B292BB /* HBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA8658FBA0E20D18763881494E5072E /* HBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263FBB4E806FE6BDB3F3DBA97C2AE473 /* UISwitch+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BD242F10F852A516C60A82EEA56B45 /* UISwitch+HBDIC.m */; };
+		2DE0C2CA56DE297A2939CE7DB8E16669 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */; };
+		3273E3256BE285283035024AC06E569D /* UITableView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFAFE3B2469ABFDDA160C444917CC1A /* UITableView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F6A224E449623DCFE300E77639FE07 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */; };
+		39DB12832D316E140E3776EB43434071 /* HBDictionaryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C96AE89B03F03FFF462606A402D38C /* HBDictionaryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FCD0ABBBB5302B2F28EAD3270E42E4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */; };
+		444FC6D00AC39F5DEA789316251AAF75 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */; };
+		44D089F381D0EBC661EAF7D296B36452 /* UIView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = E25D7E5FCC313E9F16DF02AC855E8D16 /* UIView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4799850BF17BCD9325C11B9500CF9EBD /* UIButton+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9080C8798BFA1B9110A431894CCF27C1 /* UIButton+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D7034242C1BC613B8185ACF2539E711 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE62B4BA8A02C7A39FF0E90EB627818 /* UILabel+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 709597E4C1159A49DDDD89DE98141066 /* UILabel+HBDIC.m */; };
+		57BD70461C221927FDC068D86397494E /* UISegmentedControl+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BF4C43774AE7A551D5C274085F003B /* UISegmentedControl+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5B6E02FBE0CD8A667AC32F8F3984C5 /* HBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDBFF96D67B4BCEF0D63A5ED73DBAD9 /* HBKVOController.m */; };
+		628E776652991ACF0444023FF3D1EDF0 /* UIScrollView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF7A1872B7032652D45A5A3CE25FA72 /* UIScrollView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65BBF59C146BC5DA7DF408CBC125B967 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0445052B0D91FB605218FE2B6F54B6 /* UITextView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2951F837BE4036E0B78A44A35D1D3 /* UITextView+HBDIC.m */; };
+		6C47D45C600E3A64C15275C3F9E01686 /* UIImageView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845982769702DB4BACF8B013B958229 /* UIImageView+HBDIC.m */; };
+		76DBDD2E92B11426345FCF82B9A3169F /* UITextField+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = D3355C6033FA267098A764D7CF9F7C00 /* UITextField+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DFD522961D920350125227628A87AC /* NSObject+HBKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 338F1AF021300F72390A7402CBA32F57 /* NSObject+HBKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B015FBFD0C9BE2398A632AB5EF8E3F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		7C67F5FEF23718806DB11E98B053A8CB /* CALayer+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB7A616A500050441FC9B21F5045A /* CALayer+HBDIC.m */; };
+		875DA4F61383B5DE8D176562501020AF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D5E276B5773616CE5AD7BA756BB1A40 /* CALayer+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 95891E53D671FB74899C8F99C533DDF4 /* CALayer+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930354876B2F4330AB724BC466C64C3B /* UIColor+HBKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EA409E3933452DCA8AC021C793A66C3E /* UIColor+HBKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A7341520096D111EAF690DFB956B33 /* UIView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA26BCB04C6EA1C48DC3EC9DF63CE94 /* UIView+HBDIC.m */; };
+		9877F256CC74BE8B86EBA286FFC815F8 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE23E70FF64ACC81816A368E171B903 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992F0A3C29AC3417A0997FCE7553D728 /* UISegmentedControl+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = E998784265986439A21B616131E2195D /* UISegmentedControl+HBDIC.m */; };
+		9BB4AD262C23486A85CE4C24440883F0 /* UITableView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BA7D1A72F385134D880CC4BCD3CD34 /* UITableView+HBDIC.m */; };
+		9BDC8D2492D2EAA7A1345AB2AB9C7520 /* UIViewController+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370C61964B4BE65C954DC3D1A1C4E4DE /* UIViewController+HBDIC.m */; };
+		A0F09B257B46FF78F40CC58841B82093 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F9CA8C5BFF50E14DEF02A2EFE0050E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */; };
+		A687586CCEDB98A02D4D2D3CBC96B134 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB336A0C136362D9B8E59EF0E8BB8DD2 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B205426550884D8549D5102314B491D7 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2AF82001E4E50FAA7E91F11C1ED6ACB /* UITextField+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D6739F644B97B4263C92FB917050D9 /* UITextField+HBDIC.m */; };
+		B6AED480791ED52003D6346CD4BA23AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		C1B6CECF87773C0E78F30944B3ED8F69 /* UIColor+HBKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFA1F50BFD563CD59BEE7B05255152 /* UIColor+HBKey.m */; };
+		C51F31C71E39669BE95A948434B66C6A /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82B2772AEFAC88E87401D0193661BF2 /* UIImageView+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = C991754E216F5C4FFF5D869417EFBDDE /* UIImageView+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC5116319E017A23005307086D1CCDA3 /* NSObject+HBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 321CEBC02BFE0F600E5C4DEDD2405BB9 /* NSObject+HBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC762D6913230EC2E63BD3F93BA3A139 /* UIScrollView+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 198CAC08412453732B0A2371654CEDBB /* UIScrollView+HBDIC.m */; };
+		D1B4B675971B92399E20DB0EF6968BE7 /* UIView+Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = 400CD33F4CF8AFA24AFB24434B0F381C /* UIView+Masonry.m */; };
+		D86576CEEB97F614F2622BC316AEA14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		DFA7972C403EDDAED5273CF9DDEFE80B /* UIButton+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = D082E3CFF61F38C953D9822C82013C59 /* UIButton+HBDIC.m */; };
+		E54A3839904AAD51E877A856DF7334AF /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */; };
+		F0E8FC5AEEDD825C6B718BB54E0FC71F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */; };
+		F17585469DE7899F91B1114E5E719880 /* UISwitch+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = E86C6AA7D9EC1C486D239506CEDAA892 /* UISwitch+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5E84A304AAF472F297904B8A4986833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F71E5160D4B86851B67E2E166C6B80E4 /* UIControl+HBDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CCBC6F603003174E3F50185AC169CB /* UIControl+HBDIC.m */; };
+		F876C3DACB741280B3AFE988BB5B03B6 /* UILabel+HBDIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 84889046A5FAB94A016A6226DD1105C5 /* UILabel+HBDIC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF276E1804AB1E7BFC5738E23BDFFEE /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE3510A270E63FDF9042A6AE0209E4DA /* PBXContainerItemProxy */ = {
+		45D451B9CA651469D9A5CB621D016B85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteGlobalIDString = 932783A144A6AF9089A53F40707FDF32;
 			remoteInfo = Masonry;
 		};
-		C41A2C55CF095DD0F1C13D03CB502E1E /* PBXContainerItemProxy */ = {
+		7C61D1C14F878E94734ABF39140B241E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F7756955BF484B91E02EB2F7653DFA2;
-			remoteInfo = UIDictionaryKit;
+			remoteGlobalIDString = B3067EAAEE99DB1421A1FA2E197535E0;
+			remoteInfo = HBDictionaryKit;
+		};
+		80A984C8D5D940CBC835F9D8308B9ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932783A144A6AF9089A53F40707FDF32;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0126428A49B657A2E55D7C1B8F324F73 /* UITextField+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HBDIC.m"; sourceTree = "<group>"; };
-		01565349D9F58912EEFAEE921D859E59 /* UIDictionaryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIDictionaryKit.xcconfig; sourceTree = "<group>"; };
-		039E198E66AEEF2858C16DF25893E8AF /* HBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKVOController.h; sourceTree = "<group>"; };
-		03BF77C8A7E4B076A28812B9BF07CA41 /* UIViewController+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HBDIC.m"; sourceTree = "<group>"; };
 		043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		0B8B720A9BDFC3E6B3CC61E6D6A2A906 /* UIView+Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Masonry.h"; sourceTree = "<group>"; };
+		0CF0B3CEB378E7B1A5E9B151D3D8EADB /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E95B777134259FDD93DA2FAEFA1BD58 /* HBDictionaryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDictionaryKit-dummy.m"; sourceTree = "<group>"; };
 		11587C935F6AFB90BD877C274AEBF295 /* Pods-UIDictionaryKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIDictionaryKitDemo-dummy.m"; sourceTree = "<group>"; };
 		1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		165FD914931CDD111AE4A3907B549A96 /* UIDictionaryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDictionaryKit-dummy.m"; sourceTree = "<group>"; };
-		173ECE15CCA4A2949712D150F42E3F56 /* UISwitch+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+HBDIC.m"; sourceTree = "<group>"; };
-		17EAAD04CB2904F6400F37306C78B510 /* UIControl+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+HBDIC.h"; sourceTree = "<group>"; };
-		1970A6C0ACF87FF0F067FD6004A19808 /* NSObject+HBKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+HBKey.h"; sourceTree = "<group>"; };
-		210D25C3194959DE685E819AFE2A7CEC /* libPods-UIDictionaryKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIDictionaryKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		225B5A0DA763147EC0882F31829A9047 /* UILabel+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HBDIC.m"; sourceTree = "<group>"; };
-		22BE9AE4B2DBC4D45D817A72B57E901A /* HBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKVOController.m; sourceTree = "<group>"; };
+		198CAC08412453732B0A2371654CEDBB /* UIScrollView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HBDIC.m"; sourceTree = "<group>"; };
 		22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		282D12510D4A0B73BAA26ECB203616CE /* UIView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HBDIC.h"; sourceTree = "<group>"; };
+		294B3C3C660AE11B9F561AD2EF30ADE7 /* HBDictionaryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDictionaryKit.xcconfig; sourceTree = "<group>"; };
 		2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		301EC2866725E4F447AE8D45665A61A2 /* UILabel+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+HBDIC.h"; sourceTree = "<group>"; };
 		3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		3E64818CDEE8BD6705ADC955FA0A291E /* UIControl+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HBDIC.m"; sourceTree = "<group>"; };
+		321CEBC02BFE0F600E5C4DEDD2405BB9 /* NSObject+HBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+HBKVOController.h"; sourceTree = "<group>"; };
+		338F1AF021300F72390A7402CBA32F57 /* NSObject+HBKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+HBKey.h"; sourceTree = "<group>"; };
+		370C61964B4BE65C954DC3D1A1C4E4DE /* UIViewController+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HBDIC.m"; sourceTree = "<group>"; };
 		3E80FED58E3D4D2586F179FCE18C88AA /* Pods-UIDictionaryKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIDictionaryKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		400CD33F4CF8AFA24AFB24434B0F381C /* UIView+Masonry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Masonry.m"; sourceTree = "<group>"; };
+		409FA7B551030C1742AF0AD66118CDF5 /* NSObject+HBKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HBKey.m"; sourceTree = "<group>"; };
+		40BD242F10F852A516C60A82EEA56B45 /* UISwitch+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+HBDIC.m"; sourceTree = "<group>"; };
+		42B2951F837BE4036E0B78A44A35D1D3 /* UITextView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HBDIC.m"; sourceTree = "<group>"; };
 		475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4AB5BDDAF0503FF27E5052E3C06B4D68 /* NSObject+HBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+HBKVOController.h"; sourceTree = "<group>"; };
-		4F40FDDA7D542048E3B71321405BFF92 /* UIButton+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+HBDIC.h"; sourceTree = "<group>"; };
-		510CA1B68327A05474F632FB0946089B /* UIColor+HBKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBKey.m"; sourceTree = "<group>"; };
-		5848F9FE73DD31278C132620B97AC8FF /* UIButton+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HBDIC.m"; sourceTree = "<group>"; };
-		5C8D9387AA67EE33BFA6BDC65CA86CC8 /* UIViewController+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HBDIC.h"; sourceTree = "<group>"; };
+		4845982769702DB4BACF8B013B958229 /* UIImageView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HBDIC.m"; sourceTree = "<group>"; };
+		55C96AE89B03F03FFF462606A402D38C /* HBDictionaryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBDictionaryKit.h; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B33FDCF4B8E6CDBEE1E7218D0BAD1A7 /* UIImageView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HBDIC.h"; sourceTree = "<group>"; };
-		6E46CCDE6DE24BFBE8AF41FA8C3E486D /* NSObject+HBKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HBKey.m"; sourceTree = "<group>"; };
-		74F7F1F0AC5E5A0B92DEFC99CD7EC4A1 /* UIDictionaryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIDictionaryKit.h; sourceTree = "<group>"; };
+		6A4420131A0EBA8F7D0093E6EDC37F62 /* libHBDictionaryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHBDictionaryKit.a; path = libHBDictionaryKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		709597E4C1159A49DDDD89DE98141066 /* UILabel+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HBDIC.m"; sourceTree = "<group>"; };
 		780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		7BA8658FBA0E20D18763881494E5072E /* HBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKVOController.h; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		80DA7E42387EE337917C6452D2BD301D /* UIView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBDIC.m"; sourceTree = "<group>"; };
-		81EFC4420E1626CEDF4C6BEDF3F38336 /* CALayer+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+HBDIC.h"; sourceTree = "<group>"; };
 		8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		82CFA1F50BFD563CD59BEE7B05255152 /* UIColor+HBKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBKey.m"; sourceTree = "<group>"; };
 		82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		84889046A5FAB94A016A6226DD1105C5 /* UILabel+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+HBDIC.h"; sourceTree = "<group>"; };
+		88E0728AB97ED62C4CA00B01DBE88754 /* HBDictionaryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDictionaryKit-prefix.pch"; sourceTree = "<group>"; };
 		8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8E2275CD5834AFE56767BBDE1C298F02 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		9080C8798BFA1B9110A431894CCF27C1 /* UIButton+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+HBDIC.h"; sourceTree = "<group>"; };
 		915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		937FB7A616A500050441FC9B21F5045A /* CALayer+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+HBDIC.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BF4C43774AE7A551D5C274085F003B /* UISegmentedControl+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+HBDIC.h"; sourceTree = "<group>"; };
+		95891E53D671FB74899C8F99C533DDF4 /* CALayer+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+HBDIC.h"; sourceTree = "<group>"; };
 		9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A267B7B032EED8120F33DB213EAF4086 /* NSObject+HBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HBKVOController.m"; sourceTree = "<group>"; };
 		A2F75C96947B2651F82FC18F66C43B49 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		A72B796642B3E0A75390524ED5317147 /* Pods-UIDictionaryKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIDictionaryKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A9CCBC6F603003174E3F50185AC169CB /* UIControl+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HBDIC.m"; sourceTree = "<group>"; };
 		B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		B1FF3D7ECF9F924556BAED5490605B94 /* Pods-UIDictionaryKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIDictionaryKitDemo-resources.sh"; sourceTree = "<group>"; };
+		B3D0B980B8E5FECC301FD569402273D0 /* UIControl+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+HBDIC.h"; sourceTree = "<group>"; };
 		B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		B53B166715B0F7AE4B76F221C59C0575 /* Pods-UIDictionaryKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIDictionaryKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		B6D137F1DE5474510ED1CC07FBAC18A8 /* CALayer+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+HBDIC.m"; sourceTree = "<group>"; };
-		B7C7205818D48666AE6A4E77CCA83A2B /* UITableView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HBDIC.m"; sourceTree = "<group>"; };
+		BBDBFF96D67B4BCEF0D63A5ED73DBAD9 /* HBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKVOController.m; sourceTree = "<group>"; };
 		BE131A28A9AAE8D309161764330062BC /* Pods-UIDictionaryKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIDictionaryKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		C01AC5417155B032FBA339804F6C56CC /* UIScrollView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HBDIC.m"; sourceTree = "<group>"; };
-		C096B0898D321483DBD5F64659FD9E97 /* UITextField+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+HBDIC.h"; sourceTree = "<group>"; };
 		C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		C7E7A404C1C7B4FED5861960385BD3C8 /* UIDictionaryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDictionaryKit-prefix.pch"; sourceTree = "<group>"; };
-		CDC6D8289CE37FACECE6F47E34E40730 /* libUIDictionaryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIDictionaryKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AE5C0ECEB7345EEEA72625BBE819E7 /* UISwitch+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISwitch+HBDIC.h"; sourceTree = "<group>"; };
+		C991754E216F5C4FFF5D869417EFBDDE /* UIImageView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HBDIC.h"; sourceTree = "<group>"; };
+		D082E3CFF61F38C953D9822C82013C59 /* UIButton+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HBDIC.m"; sourceTree = "<group>"; };
+		D2CFFDEBC00F80F58737DAE0B7C51B0F /* libPods-UIDictionaryKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UIDictionaryKitDemo.a"; path = "libPods-UIDictionaryKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3355C6033FA267098A764D7CF9F7C00 /* UITextField+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+HBDIC.h"; sourceTree = "<group>"; };
 		D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		D7B592E21809CBFF71E361FCDAB8D4CD /* UIScrollView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HBDIC.h"; sourceTree = "<group>"; };
-		DEB625D32D443938AA07A2161D065FDF /* UITableView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+HBDIC.h"; sourceTree = "<group>"; };
+		DCDDE5E03F54E8B43F51647E1F03F5A0 /* UITextView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+HBDIC.h"; sourceTree = "<group>"; };
+		DF9A92F809D807668A3C05E9FB7857CC /* UIViewController+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HBDIC.h"; sourceTree = "<group>"; };
 		E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		E530573E02032B509E5C0948DAB1BE0E /* UIColor+HBKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBKey.h"; sourceTree = "<group>"; };
-		E9616857D02387839DCC42761EE08388 /* UITextView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HBDIC.m"; sourceTree = "<group>"; };
+		E25D7E5FCC313E9F16DF02AC855E8D16 /* UIView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HBDIC.h"; sourceTree = "<group>"; };
+		E48F3A1B2DA95192B8D5F39B9FE831EC /* NSObject+HBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HBKVOController.m"; sourceTree = "<group>"; };
+		E6D6739F644B97B4263C92FB917050D9 /* UITextField+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HBDIC.m"; sourceTree = "<group>"; };
+		E7BA7D1A72F385134D880CC4BCD3CD34 /* UITableView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HBDIC.m"; sourceTree = "<group>"; };
+		E86C6AA7D9EC1C486D239506CEDAA892 /* UISwitch+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISwitch+HBDIC.h"; sourceTree = "<group>"; };
+		E998784265986439A21B616131E2195D /* UISegmentedControl+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+HBDIC.m"; sourceTree = "<group>"; };
+		EA409E3933452DCA8AC021C793A66C3E /* UIColor+HBKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBKey.h"; sourceTree = "<group>"; };
+		EBF7A1872B7032652D45A5A3CE25FA72 /* UIScrollView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HBDIC.h"; sourceTree = "<group>"; };
+		EBFAFE3B2469ABFDDA160C444917CC1A /* UITableView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+HBDIC.h"; sourceTree = "<group>"; };
 		EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F0250757B70023556E6B24A9667D9026 /* UISegmentedControl+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+HBDIC.h"; sourceTree = "<group>"; };
-		F0F7AED3FC52C4773084CEA0A1E3F172 /* UISegmentedControl+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+HBDIC.m"; sourceTree = "<group>"; };
-		F866931D1DF7B45C0077ABD1 /* UIView+Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Masonry.h"; sourceTree = "<group>"; };
-		F866931E1DF7B45C0077ABD1 /* UIView+Masonry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Masonry.m"; sourceTree = "<group>"; };
-		F886450316A83680EE46615E7D724306 /* UIImageView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HBDIC.m"; sourceTree = "<group>"; };
 		F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		F8CCFACE520913B9B866F8DEDE46D3BE /* Pods-UIDictionaryKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIDictionaryKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		FAF2A90789B94035DAA679B68D4B7EBA /* UITextView+HBDIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+HBDIC.h"; sourceTree = "<group>"; };
+		FBA26BCB04C6EA1C48DC3EC9DF63CE94 /* UIView+HBDIC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBDIC.m"; sourceTree = "<group>"; };
 		FBE23E70FF64ACC81816A368E171B903 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		126D586E05B500F0891315A851DD1B61 /* Frameworks */ = {
+		649E4606EEF82C38C93A88A4D49CE7A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BAE8EB438D95EBEAAB303E001E9AFBD /* Foundation.framework in Frameworks */,
+				D86576CEEB97F614F2622BC316AEA14E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+		91C81FB15F07D736D8BE373AC706BB8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566EA65277D377CE9AF9BC125521965B /* Foundation.framework in Frameworks */,
-				1EC363D6911160B063DB6CC87F595A5B /* UIKit.framework in Frameworks */,
+				F5E84A304AAF472F297904B8A4986833 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAFC20F4EF53D82B88BE8B53C3693921 /* Frameworks */ = {
+		FD2FE283814B6B532310B2EB7958114B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F16EE0F83FADB82CD1D54C1673930C /* Foundation.framework in Frameworks */,
+				0B69A69EABC6E8AC133ED51E707E8155 /* Foundation.framework in Frameworks */,
+				B6AED480791ED52003D6346CD4BA23AF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FD414D809A2CC2DE223246DF90E63F9 /* UIDictionaryKit */ = {
-			isa = PBXGroup;
-			children = (
-				81EFC4420E1626CEDF4C6BEDF3F38336 /* CALayer+HBDIC.h */,
-				B6D137F1DE5474510ED1CC07FBAC18A8 /* CALayer+HBDIC.m */,
-				039E198E66AEEF2858C16DF25893E8AF /* HBKVOController.h */,
-				22BE9AE4B2DBC4D45D817A72B57E901A /* HBKVOController.m */,
-				1970A6C0ACF87FF0F067FD6004A19808 /* NSObject+HBKey.h */,
-				6E46CCDE6DE24BFBE8AF41FA8C3E486D /* NSObject+HBKey.m */,
-				4AB5BDDAF0503FF27E5052E3C06B4D68 /* NSObject+HBKVOController.h */,
-				A267B7B032EED8120F33DB213EAF4086 /* NSObject+HBKVOController.m */,
-				4F40FDDA7D542048E3B71321405BFF92 /* UIButton+HBDIC.h */,
-				5848F9FE73DD31278C132620B97AC8FF /* UIButton+HBDIC.m */,
-				E530573E02032B509E5C0948DAB1BE0E /* UIColor+HBKey.h */,
-				510CA1B68327A05474F632FB0946089B /* UIColor+HBKey.m */,
-				17EAAD04CB2904F6400F37306C78B510 /* UIControl+HBDIC.h */,
-				3E64818CDEE8BD6705ADC955FA0A291E /* UIControl+HBDIC.m */,
-				74F7F1F0AC5E5A0B92DEFC99CD7EC4A1 /* UIDictionaryKit.h */,
-				6B33FDCF4B8E6CDBEE1E7218D0BAD1A7 /* UIImageView+HBDIC.h */,
-				F886450316A83680EE46615E7D724306 /* UIImageView+HBDIC.m */,
-				301EC2866725E4F447AE8D45665A61A2 /* UILabel+HBDIC.h */,
-				225B5A0DA763147EC0882F31829A9047 /* UILabel+HBDIC.m */,
-				D7B592E21809CBFF71E361FCDAB8D4CD /* UIScrollView+HBDIC.h */,
-				C01AC5417155B032FBA339804F6C56CC /* UIScrollView+HBDIC.m */,
-				F0250757B70023556E6B24A9667D9026 /* UISegmentedControl+HBDIC.h */,
-				F0F7AED3FC52C4773084CEA0A1E3F172 /* UISegmentedControl+HBDIC.m */,
-				D2AE5C0ECEB7345EEEA72625BBE819E7 /* UISwitch+HBDIC.h */,
-				173ECE15CCA4A2949712D150F42E3F56 /* UISwitch+HBDIC.m */,
-				DEB625D32D443938AA07A2161D065FDF /* UITableView+HBDIC.h */,
-				B7C7205818D48666AE6A4E77CCA83A2B /* UITableView+HBDIC.m */,
-				C096B0898D321483DBD5F64659FD9E97 /* UITextField+HBDIC.h */,
-				0126428A49B657A2E55D7C1B8F324F73 /* UITextField+HBDIC.m */,
-				FAF2A90789B94035DAA679B68D4B7EBA /* UITextView+HBDIC.h */,
-				E9616857D02387839DCC42761EE08388 /* UITextView+HBDIC.m */,
-				282D12510D4A0B73BAA26ECB203616CE /* UIView+HBDIC.h */,
-				80DA7E42387EE337917C6452D2BD301D /* UIView+HBDIC.m */,
-				F866931D1DF7B45C0077ABD1 /* UIView+Masonry.h */,
-				F866931E1DF7B45C0077ABD1 /* UIView+Masonry.m */,
-				5C8D9387AA67EE33BFA6BDC65CA86CC8 /* UIViewController+HBDIC.h */,
-				03BF77C8A7E4B076A28812B9BF07CA41 /* UIViewController+HBDIC.m */,
-			);
-			path = UIDictionaryKit;
-			sourceTree = "<group>";
-		};
 		25D7714DBECA0BD7FACFDCB00899307C /* Pods-UIDictionaryKitDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +228,51 @@
 			);
 			name = "Pods-UIDictionaryKitDemo";
 			path = "Target Support Files/Pods-UIDictionaryKitDemo";
+			sourceTree = "<group>";
+		};
+		345D658D9D35D0C5F0DAE946FDEE7079 /* HBDictionaryKit */ = {
+			isa = PBXGroup;
+			children = (
+				95891E53D671FB74899C8F99C533DDF4 /* CALayer+HBDIC.h */,
+				937FB7A616A500050441FC9B21F5045A /* CALayer+HBDIC.m */,
+				55C96AE89B03F03FFF462606A402D38C /* HBDictionaryKit.h */,
+				7BA8658FBA0E20D18763881494E5072E /* HBKVOController.h */,
+				BBDBFF96D67B4BCEF0D63A5ED73DBAD9 /* HBKVOController.m */,
+				338F1AF021300F72390A7402CBA32F57 /* NSObject+HBKey.h */,
+				409FA7B551030C1742AF0AD66118CDF5 /* NSObject+HBKey.m */,
+				321CEBC02BFE0F600E5C4DEDD2405BB9 /* NSObject+HBKVOController.h */,
+				E48F3A1B2DA95192B8D5F39B9FE831EC /* NSObject+HBKVOController.m */,
+				9080C8798BFA1B9110A431894CCF27C1 /* UIButton+HBDIC.h */,
+				D082E3CFF61F38C953D9822C82013C59 /* UIButton+HBDIC.m */,
+				EA409E3933452DCA8AC021C793A66C3E /* UIColor+HBKey.h */,
+				82CFA1F50BFD563CD59BEE7B05255152 /* UIColor+HBKey.m */,
+				B3D0B980B8E5FECC301FD569402273D0 /* UIControl+HBDIC.h */,
+				A9CCBC6F603003174E3F50185AC169CB /* UIControl+HBDIC.m */,
+				C991754E216F5C4FFF5D869417EFBDDE /* UIImageView+HBDIC.h */,
+				4845982769702DB4BACF8B013B958229 /* UIImageView+HBDIC.m */,
+				84889046A5FAB94A016A6226DD1105C5 /* UILabel+HBDIC.h */,
+				709597E4C1159A49DDDD89DE98141066 /* UILabel+HBDIC.m */,
+				EBF7A1872B7032652D45A5A3CE25FA72 /* UIScrollView+HBDIC.h */,
+				198CAC08412453732B0A2371654CEDBB /* UIScrollView+HBDIC.m */,
+				94BF4C43774AE7A551D5C274085F003B /* UISegmentedControl+HBDIC.h */,
+				E998784265986439A21B616131E2195D /* UISegmentedControl+HBDIC.m */,
+				E86C6AA7D9EC1C486D239506CEDAA892 /* UISwitch+HBDIC.h */,
+				40BD242F10F852A516C60A82EEA56B45 /* UISwitch+HBDIC.m */,
+				EBFAFE3B2469ABFDDA160C444917CC1A /* UITableView+HBDIC.h */,
+				E7BA7D1A72F385134D880CC4BCD3CD34 /* UITableView+HBDIC.m */,
+				D3355C6033FA267098A764D7CF9F7C00 /* UITextField+HBDIC.h */,
+				E6D6739F644B97B4263C92FB917050D9 /* UITextField+HBDIC.m */,
+				DCDDE5E03F54E8B43F51647E1F03F5A0 /* UITextView+HBDIC.h */,
+				42B2951F837BE4036E0B78A44A35D1D3 /* UITextView+HBDIC.m */,
+				E25D7E5FCC313E9F16DF02AC855E8D16 /* UIView+HBDIC.h */,
+				FBA26BCB04C6EA1C48DC3EC9DF63CE94 /* UIView+HBDIC.m */,
+				0B8B720A9BDFC3E6B3CC61E6D6A2A906 /* UIView+Masonry.h */,
+				400CD33F4CF8AFA24AFB24434B0F381C /* UIView+Masonry.m */,
+				DF9A92F809D807668A3C05E9FB7857CC /* UIViewController+HBDIC.h */,
+				370C61964B4BE65C954DC3D1A1C4E4DE /* UIViewController+HBDIC.m */,
+			);
+			name = HBDictionaryKit;
+			path = HBDictionaryKit;
 			sourceTree = "<group>";
 		};
 		3B9FAC5BAEA75CAB3E20372C4D27D7EE /* Masonry */ = {
@@ -297,7 +305,18 @@
 				25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */,
 				4854BD850DB1ADEB02DE483F0C44E016 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3FD398423703157C0973DC45D47BA826 /* HBDictionaryKit */ = {
+			isa = PBXGroup;
+			children = (
+				345D658D9D35D0C5F0DAE946FDEE7079 /* HBDictionaryKit */,
+				4D788E2CC0E1E8696E31BC03E2223248 /* Support Files */,
+			);
+			name = HBDictionaryKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -306,6 +325,16 @@
 				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		441433AA4296A7BD319056C3C0615DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4420131A0EBA8F7D0093E6EDC37F62 /* libHBDictionaryKit.a */,
+				0CF0B3CEB378E7B1A5E9B151D3D8EADB /* libMasonry.a */,
+				D2CFFDEBC00F80F58737DAE0B7C51B0F /* libPods-UIDictionaryKitDemo.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4854BD850DB1ADEB02DE483F0C44E016 /* Support Files */ = {
@@ -319,36 +348,27 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		5B25B915494507348AD695A8E41C392F /* UIDictionaryKit */ = {
+		4D788E2CC0E1E8696E31BC03E2223248 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E95F5572C6860E5A4E890F49D3492C62 /* Support Files */,
-				0FD414D809A2CC2DE223246DF90E63F9 /* UIDictionaryKit */,
+				294B3C3C660AE11B9F561AD2EF30ADE7 /* HBDictionaryKit.xcconfig */,
+				0E95B777134259FDD93DA2FAEFA1BD58 /* HBDictionaryKit-dummy.m */,
+				88E0728AB97ED62C4CA00B01DBE88754 /* HBDictionaryKit-prefix.pch */,
 			);
-			name = UIDictionaryKit;
-			path = ../..;
+			name = "Support Files";
+			path = "demo/Pods/Target Support Files/HBDictionaryKit";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E67FBC89B3F82178437E56FBF6B14FCD /* Development Pods */,
+				AA3F0E4A5A3D8CE24CADDC71E43DDB73 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
-				8E9D87E8E5746C44C16A661CA4BFB2F1 /* Products */,
+				441433AA4296A7BD319056C3C0615DD4 /* Products */,
 				A1A68E3DDD627C95A3000B2F152FE56E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8E9D87E8E5746C44C16A661CA4BFB2F1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8E2275CD5834AFE56767BBDE1C298F02 /* libMasonry.a */,
-				210D25C3194959DE685E819AFE2A7CEC /* libPods-UIDictionaryKitDemo.a */,
-				CDC6D8289CE37FACECE6F47E34E40730 /* libUIDictionaryKit.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A1A68E3DDD627C95A3000B2F152FE56E /* Targets Support Files */ = {
@@ -359,10 +379,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E67FBC89B3F82178437E56FBF6B14FCD /* Development Pods */ = {
+		AA3F0E4A5A3D8CE24CADDC71E43DDB73 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5B25B915494507348AD695A8E41C392F /* UIDictionaryKit */,
+				3FD398423703157C0973DC45D47BA826 /* HBDictionaryKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -376,17 +396,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E95F5572C6860E5A4E890F49D3492C62 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				01565349D9F58912EEFAEE921D859E59 /* UIDictionaryKit.xcconfig */,
-				165FD914931CDD111AE4A3907B549A96 /* UIDictionaryKit-dummy.m */,
-				C7E7A404C1C7B4FED5861960385BD3C8 /* UIDictionaryKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "demo/Pods/Target Support Files/UIDictionaryKit";
-			sourceTree = "<group>";
-		};
 		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,81 +407,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+		023C07FAB05C60A0C15972DAC6674966 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */,
-				4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */,
-				6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */,
-				F866931F1DF7B45C0077ABD1 /* UIView+Masonry.h in Headers */,
-				EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */,
-				A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */,
-				49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */,
-				1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */,
-				E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */,
-				A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */,
-				490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */,
-				E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */,
-				9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */,
-				983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */,
-				C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */,
+				8D5E276B5773616CE5AD7BA756BB1A40 /* CALayer+HBDIC.h in Headers */,
+				39DB12832D316E140E3776EB43434071 /* HBDictionaryKit.h in Headers */,
+				2603A955839105D4E84245A218B292BB /* HBKVOController.h in Headers */,
+				76DFD522961D920350125227628A87AC /* NSObject+HBKey.h in Headers */,
+				CC5116319E017A23005307086D1CCDA3 /* NSObject+HBKVOController.h in Headers */,
+				4799850BF17BCD9325C11B9500CF9EBD /* UIButton+HBDIC.h in Headers */,
+				930354876B2F4330AB724BC466C64C3B /* UIColor+HBKey.h in Headers */,
+				0C0665A6CDDB20019502B7D519ABC6A1 /* UIControl+HBDIC.h in Headers */,
+				C82B2772AEFAC88E87401D0193661BF2 /* UIImageView+HBDIC.h in Headers */,
+				F876C3DACB741280B3AFE988BB5B03B6 /* UILabel+HBDIC.h in Headers */,
+				628E776652991ACF0444023FF3D1EDF0 /* UIScrollView+HBDIC.h in Headers */,
+				57BD70461C221927FDC068D86397494E /* UISegmentedControl+HBDIC.h in Headers */,
+				F17585469DE7899F91B1114E5E719880 /* UISwitch+HBDIC.h in Headers */,
+				3273E3256BE285283035024AC06E569D /* UITableView+HBDIC.h in Headers */,
+				76DBDD2E92B11426345FCF82B9A3169F /* UITextField+HBDIC.h in Headers */,
+				215F898A1BA8FE93DDCF1E6DC6B8FEC4 /* UITextView+HBDIC.h in Headers */,
+				44D089F381D0EBC661EAF7D296B36452 /* UIView+HBDIC.h in Headers */,
+				014F2ADB2A86552D10FB51789F9F8CA7 /* UIView+Masonry.h in Headers */,
+				253B36EC425405B2669835384637672B /* UIViewController+HBDIC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBC7F080B4D61259D0944E351C0897EE /* Headers */ = {
+		D3D40FF4D82D38DF61CD4215AD70C138 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34CB2BF57776D909822F694D07F87EE /* CALayer+HBDIC.h in Headers */,
-				44A5A09C9F4DB72AA94ABDC13B4C3481 /* HBKVOController.h in Headers */,
-				E5F54DAE80F149689EE366DAD3ABDB34 /* NSObject+HBKey.h in Headers */,
-				AA6D589604B5CF791F5DF0B8733184AD /* NSObject+HBKVOController.h in Headers */,
-				F85A881DCE75258104DC056C0BB881E5 /* UIButton+HBDIC.h in Headers */,
-				4C8271B81ADA9EFC54F3922D2D193D15 /* UIColor+HBKey.h in Headers */,
-				E3FB259C07DAE1625327684773744043 /* UIControl+HBDIC.h in Headers */,
-				562DD8DFE9EE248C993148EF23D7DEE8 /* UIDictionaryKit.h in Headers */,
-				D632E358ACB73CB0059EF37128224D65 /* UIImageView+HBDIC.h in Headers */,
-				CE32198B991BF2F91155E6FC251443AE /* UILabel+HBDIC.h in Headers */,
-				F2A2828735ED53C1B7A22555744D1D4A /* UIScrollView+HBDIC.h in Headers */,
-				36C7D42E1E964C2C19C4B21B806B38EA /* UISegmentedControl+HBDIC.h in Headers */,
-				21AFBBADB12867905F7CC22D0DFDB973 /* UISwitch+HBDIC.h in Headers */,
-				F28D49388337148949A92483E5500ABE /* UITableView+HBDIC.h in Headers */,
-				3AA150F75E3C0DE2B24BC56D83557055 /* UITextField+HBDIC.h in Headers */,
-				0259B814041916D623EFF1AAF067D1AD /* UITextView+HBDIC.h in Headers */,
-				323A1CE172BA725D2D13FB19448A081A /* UIView+HBDIC.h in Headers */,
-				D38B6CD08ED191D2BAE4830617A683F1 /* UIViewController+HBDIC.h in Headers */,
+				153853134DBA4F397989E8A0EEE23D49 /* MASCompositeConstraint.h in Headers */,
+				0DA75D5DDF960AF0DE8345E403C24AF8 /* MASConstraint+Private.h in Headers */,
+				AB336A0C136362D9B8E59EF0E8BB8DD2 /* MASConstraint.h in Headers */,
+				875DA4F61383B5DE8D176562501020AF /* MASConstraintMaker.h in Headers */,
+				B205426550884D8549D5102314B491D7 /* MASLayoutConstraint.h in Headers */,
+				FDF276E1804AB1E7BFC5738E23BDFFEE /* Masonry.h in Headers */,
+				A0F09B257B46FF78F40CC58841B82093 /* MASUtilities.h in Headers */,
+				C51F31C71E39669BE95A948434B66C6A /* MASViewAttribute.h in Headers */,
+				10D4C632F05B1F4D3BC195CFF9274A81 /* MASViewConstraint.h in Headers */,
+				4D7034242C1BC613B8185ACF2539E711 /* NSArray+MASAdditions.h in Headers */,
+				9877F256CC74BE8B86EBA286FFC815F8 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0C8CE5E1EA1327AA471280D05AC69DEA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				A687586CCEDB98A02D4D2D3CBC96B134 /* View+MASAdditions.h in Headers */,
+				65BBF59C146BC5DA7DF408CBC125B967 /* View+MASShorthandAdditions.h in Headers */,
+				00F75FB5B541761723BF9706B17E9A02 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F7756955BF484B91E02EB2F7653DFA2 /* UIDictionaryKit */ = {
+		932783A144A6AF9089A53F40707FDF32 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDAB2F9BC50B30CE7293DD3DCCBA7E93 /* Build configuration list for PBXNativeTarget "UIDictionaryKit" */;
+			buildConfigurationList = 3E20AD32AB33E74BDE0DC7B0B36CB4C9 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				FE0993438937C6324E559F6958166F05 /* Sources */,
-				EAFC20F4EF53D82B88BE8B53C3693921 /* Frameworks */,
-				DBC7F080B4D61259D0944E351C0897EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UIDictionaryKit;
-			productName = UIDictionaryKit;
-			productReference = CDC6D8289CE37FACECE6F47E34E40730 /* libUIDictionaryKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				C4BE2DC1E815E7367562323223772531 /* Sources */,
-				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
-				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
+				F3D35250B9C953DC503044EE71ECD1BC /* Sources */,
+				FD2FE283814B6B532310B2EB7958114B /* Frameworks */,
+				D3D40FF4D82D38DF61CD4215AD70C138 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -480,25 +472,43 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 8E2275CD5834AFE56767BBDE1C298F02 /* libMasonry.a */;
+			productReference = 0CF0B3CEB378E7B1A5E9B151D3D8EADB /* libMasonry.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B97D14DC9BAD4344EAC9B54CF8933B52 /* Pods-UIDictionaryKitDemo */ = {
+		B3067EAAEE99DB1421A1FA2E197535E0 /* HBDictionaryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72001EC839985294432C4C5E4CAA8E08 /* Build configuration list for PBXNativeTarget "Pods-UIDictionaryKitDemo" */;
+			buildConfigurationList = FA57DD4FCE4A37B9AB86A0F1154F006F /* Build configuration list for PBXNativeTarget "HBDictionaryKit" */;
 			buildPhases = (
-				3290295D47DFE71B17F9812C1F1F0DDC /* Sources */,
-				126D586E05B500F0891315A851DD1B61 /* Frameworks */,
+				CE955434F48FDC2C176B5CEF1AB1BC1F /* Sources */,
+				649E4606EEF82C38C93A88A4D49CE7A1 /* Frameworks */,
+				023C07FAB05C60A0C15972DAC6674966 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8929856602E940193810339DAA580B12 /* PBXTargetDependency */,
-				4E309F1D555777B8150BD7CD0375764F /* PBXTargetDependency */,
+				D3593F14FCE3BCBBD1AC707E1E011962 /* PBXTargetDependency */,
+			);
+			name = HBDictionaryKit;
+			productName = HBDictionaryKit;
+			productReference = 6A4420131A0EBA8F7D0093E6EDC37F62 /* libHBDictionaryKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFD97C976B3F23C97FA5B489CFA563E5 /* Pods-UIDictionaryKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AF0C550C7F7E6E3323C619AC7EAE81 /* Build configuration list for PBXNativeTarget "Pods-UIDictionaryKitDemo" */;
+			buildPhases = (
+				D711C0580258ED28E4F3119AA54F2481 /* Sources */,
+				91C81FB15F07D736D8BE373AC706BB8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B9638E36E6534C46BA29B5794D0D97 /* PBXTargetDependency */,
+				62C2A5025530CB1FEE72E0EF41C44591 /* PBXTargetDependency */,
 			);
 			name = "Pods-UIDictionaryKitDemo";
 			productName = "Pods-UIDictionaryKitDemo";
-			productReference = 210D25C3194959DE685E819AFE2A7CEC /* libPods-UIDictionaryKitDemo.a */;
+			productReference = D2CFFDEBC00F80F58737DAE0B7C51B0F /* libPods-UIDictionaryKitDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -518,91 +528,97 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8E9D87E8E5746C44C16A661CA4BFB2F1 /* Products */;
+			productRefGroup = 441433AA4296A7BD319056C3C0615DD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
-				B97D14DC9BAD4344EAC9B54CF8933B52 /* Pods-UIDictionaryKitDemo */,
-				4F7756955BF484B91E02EB2F7653DFA2 /* UIDictionaryKit */,
+				B3067EAAEE99DB1421A1FA2E197535E0 /* HBDictionaryKit */,
+				932783A144A6AF9089A53F40707FDF32 /* Masonry */,
+				BFD97C976B3F23C97FA5B489CFA563E5 /* Pods-UIDictionaryKitDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3290295D47DFE71B17F9812C1F1F0DDC /* Sources */ = {
+		CE955434F48FDC2C176B5CEF1AB1BC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941F4500741550F1A294702933C4F5C2 /* Pods-UIDictionaryKitDemo-dummy.m in Sources */,
+				7C67F5FEF23718806DB11E98B053A8CB /* CALayer+HBDIC.m in Sources */,
+				21F2A570F3308AD3383202CBE21475FF /* HBDictionaryKit-dummy.m in Sources */,
+				5C5B6E02FBE0CD8A667AC32F8F3984C5 /* HBKVOController.m in Sources */,
+				0A2FEAB6615A16AC89910B343F684997 /* NSObject+HBKey.m in Sources */,
+				240BAA256385AA242647ACEBE072A8F7 /* NSObject+HBKVOController.m in Sources */,
+				DFA7972C403EDDAED5273CF9DDEFE80B /* UIButton+HBDIC.m in Sources */,
+				C1B6CECF87773C0E78F30944B3ED8F69 /* UIColor+HBKey.m in Sources */,
+				F71E5160D4B86851B67E2E166C6B80E4 /* UIControl+HBDIC.m in Sources */,
+				6C47D45C600E3A64C15275C3F9E01686 /* UIImageView+HBDIC.m in Sources */,
+				4DE62B4BA8A02C7A39FF0E90EB627818 /* UILabel+HBDIC.m in Sources */,
+				CC762D6913230EC2E63BD3F93BA3A139 /* UIScrollView+HBDIC.m in Sources */,
+				992F0A3C29AC3417A0997FCE7553D728 /* UISegmentedControl+HBDIC.m in Sources */,
+				263FBB4E806FE6BDB3F3DBA97C2AE473 /* UISwitch+HBDIC.m in Sources */,
+				9BB4AD262C23486A85CE4C24440883F0 /* UITableView+HBDIC.m in Sources */,
+				B2AF82001E4E50FAA7E91F11C1ED6ACB /* UITextField+HBDIC.m in Sources */,
+				6A0445052B0D91FB605218FE2B6F54B6 /* UITextView+HBDIC.m in Sources */,
+				93A7341520096D111EAF690DFB956B33 /* UIView+HBDIC.m in Sources */,
+				D1B4B675971B92399E20DB0EF6968BE7 /* UIView+Masonry.m in Sources */,
+				9BDC8D2492D2EAA7A1345AB2AB9C7520 /* UIViewController+HBDIC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
+		D711C0580258ED28E4F3119AA54F2481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
-				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
-				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
-				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
-				F86693201DF7B45C0077ABD1 /* UIView+Masonry.m in Sources */,
-				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
-				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
-				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
-				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
-				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
-				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
+				1F7E2CC895EA73CF1F9918BDF784BE97 /* Pods-UIDictionaryKitDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE0993438937C6324E559F6958166F05 /* Sources */ = {
+		F3D35250B9C953DC503044EE71ECD1BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C750DC4122A74B4B6C4F54803A1423 /* CALayer+HBDIC.m in Sources */,
-				76DE979A67C94A318F672093D3DEB5DE /* HBKVOController.m in Sources */,
-				A98650FEA9177313D22C8704DD99862C /* NSObject+HBKey.m in Sources */,
-				FEA947FFA091AF3130A8B584864DB0E0 /* NSObject+HBKVOController.m in Sources */,
-				57C68AEC3BE7801202ADB77A263B0E11 /* UIButton+HBDIC.m in Sources */,
-				970C6A4531F734D6CD2ABFA9ABC29201 /* UIColor+HBKey.m in Sources */,
-				8A66F13B5E09B23B3E3C24DC0BF28BD7 /* UIControl+HBDIC.m in Sources */,
-				2504627A041AA63F442A7A4E6749B204 /* UIDictionaryKit-dummy.m in Sources */,
-				98FDB537451216C5A37639C8C4D98767 /* UIImageView+HBDIC.m in Sources */,
-				1511052B6DCD4A4D96AFCF79861BCBB6 /* UILabel+HBDIC.m in Sources */,
-				D4F8B6E95C99F5AD456424F551710499 /* UIScrollView+HBDIC.m in Sources */,
-				F98E84055E468F130E44459845223232 /* UISegmentedControl+HBDIC.m in Sources */,
-				3FCA0A5BC4A4E856D357A25D4975C2B1 /* UISwitch+HBDIC.m in Sources */,
-				765B014F4AD0E753B80197D1C1C551C2 /* UITableView+HBDIC.m in Sources */,
-				280ECC0EB7262D70F52EBB59D59DB745 /* UITextField+HBDIC.m in Sources */,
-				8DB453A96E278E50E837BEAD4DD43BAD /* UITextView+HBDIC.m in Sources */,
-				FE1E1DA29B078B9628CCDD4EDA48ABAA /* UIView+HBDIC.m in Sources */,
-				591E5A70D70E52CB0B6B32CD43BCB462 /* UIViewController+HBDIC.m in Sources */,
+				2319665153FF87AE8BE61F8A0AD7C74D /* MASCompositeConstraint.m in Sources */,
+				2DE0C2CA56DE297A2939CE7DB8E16669 /* MASConstraint.m in Sources */,
+				0526607DE89A9DDE7ADBD78227C96683 /* MASConstraintMaker.m in Sources */,
+				129B0CDCBDFF0D2B091F536F9D6BD759 /* MASLayoutConstraint.m in Sources */,
+				E54A3839904AAD51E877A856DF7334AF /* Masonry-dummy.m in Sources */,
+				F0E8FC5AEEDD825C6B718BB54E0FC71F /* MASViewAttribute.m in Sources */,
+				33F6A224E449623DCFE300E77639FE07 /* MASViewConstraint.m in Sources */,
+				A1F9CA8C5BFF50E14DEF02A2EFE0050E /* NSArray+MASAdditions.m in Sources */,
+				78B015FBFD0C9BE2398A632AB5EF8E3F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				43FCD0ABBBB5302B2F28EAD3270E42E4 /* View+MASAdditions.m in Sources */,
+				444FC6D00AC39F5DEA789316251AAF75 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E309F1D555777B8150BD7CD0375764F /* PBXTargetDependency */ = {
+		06B9638E36E6534C46BA29B5794D0D97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UIDictionaryKit;
-			target = 4F7756955BF484B91E02EB2F7653DFA2 /* UIDictionaryKit */;
-			targetProxy = C41A2C55CF095DD0F1C13D03CB502E1E /* PBXContainerItemProxy */;
+			name = HBDictionaryKit;
+			target = B3067EAAEE99DB1421A1FA2E197535E0 /* HBDictionaryKit */;
+			targetProxy = 7C61D1C14F878E94734ABF39140B241E /* PBXContainerItemProxy */;
 		};
-		8929856602E940193810339DAA580B12 /* PBXTargetDependency */ = {
+		62C2A5025530CB1FEE72E0EF41C44591 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
-			targetProxy = BE3510A270E63FDF9042A6AE0209E4DA /* PBXContainerItemProxy */;
+			target = 932783A144A6AF9089A53F40707FDF32 /* Masonry */;
+			targetProxy = 80A984C8D5D940CBC835F9D8308B9ACF /* PBXContainerItemProxy */;
+		};
+		D3593F14FCE3BCBBD1AC707E1E011962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 932783A144A6AF9089A53F40707FDF32 /* Masonry */;
+			targetProxy = 45D451B9CA651469D9A5CB621D016B85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		278AED9C962482E26475580009991CFB /* Release */ = {
+		12F540733A61F371B24717E710C28B17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01565349D9F58912EEFAEE921D859E59 /* UIDictionaryKit.xcconfig */;
+			baseConfigurationReference = B53B166715B0F7AE4B76F221C59C0575 /* Pods-UIDictionaryKitDemo.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -610,8 +626,31 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIDictionaryKit/UIDictionaryKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1FF8532BBD9C1187F9133AA368466C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -623,7 +662,7 @@
 			};
 			name = Release;
 		};
-		5A6ACE61C4D128598EA7472C87982601 /* Debug */ = {
+		4F777CA21D4EC96E516051A4E0A5595C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
 			buildSettings = {
@@ -645,29 +684,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		6CA42F62CE0652819ED46936FE31E065 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -709,7 +725,30 @@
 			};
 			name = Release;
 		};
-		826F90BF04C0692B1868166AD77C7972 /* Debug */ = {
+		8AC577A32D77B32B87E8C9B1DBCE5496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294B3C3C660AE11B9F561AD2EF30ADE7 /* HBDictionaryKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HBDictionaryKit/HBDictionaryKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B22041D214C8FB5EDBF63DCF2E8AB60E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8CCFACE520913B9B866F8DEDE46D3BE /* Pods-UIDictionaryKitDemo.debug.xcconfig */;
 			buildSettings = {
@@ -727,52 +766,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9E8C74D55FA5DB36E9F9E5F6AA240EB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B53B166715B0F7AE4B76F221C59C0575 /* Pods-UIDictionaryKitDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		ADB78E6C16B3D876C55799CF15B21AC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01565349D9F58912EEFAEE921D859E59 /* UIDictionaryKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIDictionaryKit/UIDictionaryKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -822,6 +815,29 @@
 			};
 			name = Debug;
 		};
+		FF7D35F6DD1E2747E27F40E0AA3CACDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294B3C3C660AE11B9F561AD2EF30ADE7 /* HBDictionaryKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HBDictionaryKit/HBDictionaryKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -834,29 +850,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		3E20AD32AB33E74BDE0DC7B0B36CB4C9 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A6ACE61C4D128598EA7472C87982601 /* Debug */,
-				6CA42F62CE0652819ED46936FE31E065 /* Release */,
+				4F777CA21D4EC96E516051A4E0A5595C /* Debug */,
+				1FF8532BBD9C1187F9133AA368466C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72001EC839985294432C4C5E4CAA8E08 /* Build configuration list for PBXNativeTarget "Pods-UIDictionaryKitDemo" */ = {
+		71AF0C550C7F7E6E3323C619AC7EAE81 /* Build configuration list for PBXNativeTarget "Pods-UIDictionaryKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				826F90BF04C0692B1868166AD77C7972 /* Debug */,
-				9E8C74D55FA5DB36E9F9E5F6AA240EB5 /* Release */,
+				B22041D214C8FB5EDBF63DCF2E8AB60E /* Debug */,
+				12F540733A61F371B24717E710C28B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDAB2F9BC50B30CE7293DD3DCCBA7E93 /* Build configuration list for PBXNativeTarget "UIDictionaryKit" */ = {
+		FA57DD4FCE4A37B9AB86A0F1154F006F /* Build configuration list for PBXNativeTarget "HBDictionaryKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADB78E6C16B3D876C55799CF15B21AC0 /* Debug */,
-				278AED9C962482E26475580009991CFB /* Release */,
+				FF7D35F6DD1E2747E27F40E0AA3CACDA /* Debug */,
+				8AC577A32D77B32B87E8C9B1DBCE5496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,24 @@
+{
+  "name": "HBDictionaryKit",
+  "version": "0.1.5",
+  "summary": "a good things.",
+  "homepage": "https://github.com/Natoto/UIDictionaryKit",
+  "license": "MIT",
+  "authors": {
+    "nonato ": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/Natoto/UIDictionaryKit.git",
+    "tag": "0.1.5"
+  },
+  "source_files": "HBDictionaryKit/**/*.{h,m,plist}",
+  "requires_arc": true,
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

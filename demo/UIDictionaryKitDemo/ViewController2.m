@@ -7,7 +7,7 @@
 //
 
 #import "ViewController2.h"
-#import "UIDictionaryKit.h"
+#import "HBDictionaryKit.h"
 
 @interface ViewController2 ()
 
