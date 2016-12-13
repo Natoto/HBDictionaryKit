@@ -61,7 +61,7 @@
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,baselineAdjustment , self.baselineAdjustment = baselineAdjustment.boolValue);
         
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,minimumScaleFactor , self.minimumScaleFactor = minimumScaleFactor.floatValue);
-        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,allowsDefaultTighteningForTruncation , self.allowsDefaultTighteningForTruncation = allowsDefaultTighteningForTruncation.boolValue);
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,allowsDefaultTighteningForTruncation , {if([self  respondsToSelector:@selector(allowsDefaultTighteningForTruncation)]) { self.allowsDefaultTighteningForTruncation = allowsDefaultTighteningForTruncation.boolValue;}});
         
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSAttributedString , attributedText,
                              self.attributedText = attributedText;)
