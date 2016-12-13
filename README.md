@@ -1,17 +1,17 @@
-# HBDictionKit
+# HBDictionaryKit
 
-# HBDictionKit 键值对编程
+# HBDictionaryKit 键值对编程
 
-标签（空格分隔）： HBDictionKit
+标签（空格分隔）： HBDictionaryKit
 
 ---
 * 键值对编程，可以用plist文件设置属性，可以用dictionary设置样式，并且用kvo监听其变化从而更新
 * 使用方法 
-* pod 'HBDictionKit', :git => 'https://github.com/Natoto/HBDictionKit.git'
+* pod 'HBDictionaryKit', :git => 'https://github.com/Natoto/HBDictionaryKit.git'
 * or
-* pod 'HBDictionKit', :git => 'https://github.com/Natoto/HBDictionKit.git',:tag=>'0.1.4'
+* pod 'HBDictionaryKit', :git => 'https://github.com/Natoto/HBDictionaryKit.git',:tag=>'0.1.4'
 
-![image] (https://github.com/Natoto/HBDictionKit/blob/master/demo/uidictionarykit.gif?raw=true)
+![image] (https://github.com/Natoto/HBDictionaryKit/blob/master/demo/uidictionarykit.gif?raw=true)
 
 ---
 ### UIView + Masnory ###
