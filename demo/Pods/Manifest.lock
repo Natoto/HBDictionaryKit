@@ -1,20 +1,25 @@
 PODS:
   - HBDictionaryKit (0.1.5):
     - Masonry
+  - HBKit (0.6.50)
   - Masonry (1.0.2)
 
 DEPENDENCIES:
   - HBDictionaryKit (from `../HBDictionaryKit.podspec`)
+  - HBKit (from `/Users/boo/Documents/demo/HBFastTableViewCotroller/HBKit.podspec`)
   - Masonry
 
 EXTERNAL SOURCES:
   HBDictionaryKit:
     :path: "../HBDictionaryKit.podspec"
+  HBKit:
+    :path: "/Users/boo/Documents/demo/HBFastTableViewCotroller/HBKit.podspec"
 
 SPEC CHECKSUMS:
-  HBDictionaryKit: bf5467a2c48414a1b4dddde1beb23ded0aafbea4
+  HBDictionaryKit: d69a9fe7f1c3bd618cde722399378af6a57151fd
+  HBKit: ae24fbbc2b582ff53f17982098e6a1bdc7f840b7
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: e1d56105843f3e19e7c9f7df338359ce06d1a782
+PODFILE CHECKSUM: 99e80d1938afc4deba6ec6bd6649bf86d0e6ec0b
 
 COCOAPODS: 1.1.1

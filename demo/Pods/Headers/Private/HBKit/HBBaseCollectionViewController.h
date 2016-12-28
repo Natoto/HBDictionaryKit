@@ -1,0 +1,1 @@
+../../../../../../HBFastTableViewCotroller/HBKit/HBBaseCollectionViewController.h

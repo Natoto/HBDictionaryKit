@@ -18,6 +18,8 @@
 		78E65A481C9E30BC008C42B0 /* UIDictionaryKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E65A471C9E30BC008C42B0 /* UIDictionaryKitDemoTests.m */; };
 		78E65A531C9E30BC008C42B0 /* UIDictionaryKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E65A521C9E30BC008C42B0 /* UIDictionaryKitDemoUITests.m */; };
 		BA8357A3FE60D5C0C8ECB592 /* libPods-UIDictionaryKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9580AEC3F0281D699A86FB9 /* libPods-UIDictionaryKitDemo.a */; };
+		F8216D201E037BF400EF87A2 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8216D1F1E037BF400EF87A2 /* TestTableViewController.m */; };
+		F8216D231E037C5600EF87A2 /* SMDSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8216D221E037C5600EF87A2 /* SMDSquareCell.m */; };
 		F86693171DF792D60077ABD1 /* HBDirWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = F86693161DF792D60077ABD1 /* HBDirWatchdog.m */; };
 		F86693191DF792FB0077ABD1 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = F86693181DF792FB0077ABD1 /* resource */; };
 		F866931C1DF7ACDA0077ABD1 /* LoadSubViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F866931B1DF7ACDA0077ABD1 /* LoadSubViewViewController.m */; };
@@ -63,6 +65,10 @@
 		78E65A521C9E30BC008C42B0 /* UIDictionaryKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDictionaryKitDemoUITests.m; sourceTree = "<group>"; };
 		78E65A541C9E30BC008C42B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1FFF403674D2A276D968DA1 /* Pods-UIDictionaryKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIDictionaryKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIDictionaryKitDemo/Pods-UIDictionaryKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F8216D1E1E037BF400EF87A2 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		F8216D1F1E037BF400EF87A2 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		F8216D211E037C5600EF87A2 /* SMDSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDSquareCell.h; sourceTree = "<group>"; };
+		F8216D221E037C5600EF87A2 /* SMDSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMDSquareCell.m; sourceTree = "<group>"; };
 		F86693151DF792D60077ABD1 /* HBDirWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBDirWatchdog.h; sourceTree = "<group>"; };
 		F86693161DF792D60077ABD1 /* HBDirWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBDirWatchdog.m; sourceTree = "<group>"; };
 		F86693181DF792FB0077ABD1 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
@@ -138,6 +144,10 @@
 				78E65A311C9E30BB008C42B0 /* AppDelegate.m */,
 				F866931A1DF7ACDA0077ABD1 /* LoadSubViewViewController.h */,
 				F866931B1DF7ACDA0077ABD1 /* LoadSubViewViewController.m */,
+				F8216D1E1E037BF400EF87A2 /* TestTableViewController.h */,
+				F8216D1F1E037BF400EF87A2 /* TestTableViewController.m */,
+				F8216D211E037C5600EF87A2 /* SMDSquareCell.h */,
+				F8216D221E037C5600EF87A2 /* SMDSquareCell.m */,
 				78E65A331C9E30BB008C42B0 /* ViewController.h */,
 				78E65A341C9E30BB008C42B0 /* ViewController.m */,
 				33F457071C9FA06A006339B7 /* ViewController2.h */,
@@ -375,7 +385,9 @@
 				33F457091C9FA06A006339B7 /* ViewController2.m in Sources */,
 				78E65A351C9E30BB008C42B0 /* ViewController.m in Sources */,
 				78E65A321C9E30BB008C42B0 /* AppDelegate.m in Sources */,
+				F8216D201E037BF400EF87A2 /* TestTableViewController.m in Sources */,
 				78E65A2F1C9E30BB008C42B0 /* main.m in Sources */,
+				F8216D231E037C5600EF87A2 /* SMDSquareCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

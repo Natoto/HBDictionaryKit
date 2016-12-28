@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "105F434DA48FC5D46F51788BC02DC052E4856B2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "760C4DBE4840D67EE2327748FBF93C06D9115FFA" : 9223372036854775807,
+    "105F434DA48FC5D46F51788BC02DC052E4856B2F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6E2CD3BA-2ADD-4C87-ABE9-989563DE0167",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "760C4DBE4840D67EE2327748FBF93C06D9115FFA" : "HBFastTableViewCotroller\/",
+    "105F434DA48FC5D46F51788BC02DC052E4856B2F" : "UIDictionaryKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UIDictionaryKitDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "demo\/UIDictionaryKitDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Natoto\/UIDictionaryKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "105F434DA48FC5D46F51788BC02DC052E4856B2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Natoto\/HBFastTableViewCotroller.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "760C4DBE4840D67EE2327748FBF93C06D9115FFA"
+    }
+  ]
+}

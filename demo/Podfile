@@ -4,5 +4,7 @@ target 'UIDictionaryKitDemo' do
 source 'https://github.com/CocoaPods/Specs.git'  
 pod 'Masonry'
 pod 'HBDictionaryKit',:path=>"../HBDictionaryKit.podspec"
+pod "HBKit", :path=> '/Users/boo/Documents/demo/HBFastTableViewCotroller/HBKit.podspec'
+
 end
 #注释

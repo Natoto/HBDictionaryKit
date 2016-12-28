@@ -17,7 +17,7 @@
     if (self && plistdic && [[plistdic class] isSubclassOfClass:[NSDictionary class]]) {
         [self configcontrolwithdictionary:plistdic];
         
-        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, fontsize,  self.titleLabel.font = [UIFont systemFontOfSize:fontsize.floatValue?fontsize.floatValue:15])
+//         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, fontsize,  self.titleLabel.font = [UIFont systemFontOfSize:fontsize.floatValue?fontsize.floatValue:15])
         
         //文字
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, title, [self setTitle:title])
@@ -33,6 +33,7 @@
         //字号
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, fontsize, if(fontsize.floatValue > 0) [self setTitleFont:[UIFont systemFontOfSize:fontsize.floatValue]];)
         
+        DIC_FOR_OBJ_NOTNULL_(plistdic, UIFont, font, if(font && [[font class] isSubclassOfClass:[UIFont class]]) [self setTitleFont:font];)
         //背景颜色
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, backgroundColor, if(backgroundColor.length) [self setBackgroundImage:[UIColor colorWithHBKeyString:backgroundColor]])
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, selectBackgroundColor, if(selectBackgroundColor.length) [self setSelectBackgroundImage:[UIColor colorWithHBKeyString:selectBackgroundColor]])

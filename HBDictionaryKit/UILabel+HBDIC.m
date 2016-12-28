@@ -58,6 +58,9 @@
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,enabled , self.enabled = enabled.boolValue);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,numberOfLines , self.numberOfLines = numberOfLines.integerValue);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,adjustsFontSizeToFitWidth , self.adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth.boolValue);
+        
+        DIC_FOR_OBJ_NOTNULL_(plistdic, UIFont, font, if(font && [[font class] isSubclassOfClass:[UIFont class]]) [self setFont:font];)
+        
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,baselineAdjustment , self.baselineAdjustment = baselineAdjustment.boolValue);
         
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber ,minimumScaleFactor , self.minimumScaleFactor = minimumScaleFactor.floatValue);

@@ -113,7 +113,7 @@
                     }
                 }];
             } @catch (NSException *exception) {
-                NSLog(@"hblayout: 约束出错了");
+                NSLog(@"🔴hblayout: 约束出错了");
             } @finally {
                 
             }
@@ -248,7 +248,7 @@
  */
 -(MASConstraint *)hb_readconstrains:(MASConstraintMaker *)make {
     
-    NSLog(@"\n\n %s --> desc \n%@ ",__func__,self.description);
+    //NSLog(@"\n\n %s --> desc \n%@ ",__func__,self.description);
     MASConstraint * makecons0 = [self hb_conbain_make:make forkey:self.direction];
     
         if ([self.direction isEqualToString:@"width"] || [self.direction isEqualToString:@"height"]) {

@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HBKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1D722F12278FFFDC6E3411944EFABF08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>932783A144A6AF9089A53F40707FDF32</key>
 		<dict>
 			<key>primary</key>
@@ -32,7 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFD97C976B3F23C97FA5B489CFA563E5</key>
+		<key>C66A20EA4ED21BA0E5A67B099A057F01</key>
 		<dict>
 			<key>primary</key>
 			<true/>

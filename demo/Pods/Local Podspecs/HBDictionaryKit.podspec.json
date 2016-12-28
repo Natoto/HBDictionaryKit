@@ -2,7 +2,7 @@
   "name": "HBDictionaryKit",
   "version": "0.1.5",
   "summary": "a good things.",
-  "homepage": "https://github.com/Natoto/UIDictionaryKit",
+  "homepage": "https://github.com/Natoto/HBDictionaryKit",
   "license": "MIT",
   "authors": {
     "nonato ": "787038442@qq.com"
@@ -11,7 +11,7 @@
     "ios": "7.0"
   },
   "source": {
-    "git": "https://github.com/Natoto/UIDictionaryKit.git",
+    "git": "https://github.com/Natoto/HBDictionaryKit.git",
     "tag": "0.1.5"
   },
   "source_files": "HBDictionaryKit/**/*.{h,m,plist}",
