@@ -28,7 +28,7 @@ static const void *HBView_Dictionary = &HBView_Dictionary;
 
 -(instancetype)configsuperwithdictionary:(NSDictionary *)plistdic
 {
-    NSLog(@"%s",__func__);
+    // NSLog(@"%s",__func__);
     if (self && plistdic && [[plistdic class] isSubclassOfClass:[NSDictionary class]]) {
         
         [self sethbview_dictionary:plistdic];
@@ -54,7 +54,7 @@ static const void *HBView_Dictionary = &HBView_Dictionary;
 
 -(void)loadsubviewsWithDic:(NSArray *)subviewsDic{
     
-    NSLog(@"__%s__",__func__);
+   // NSLog(@"__%s__",__func__);
     if (!subviewsDic) {
         return;
     }

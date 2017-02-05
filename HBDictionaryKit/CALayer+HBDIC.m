@@ -17,7 +17,7 @@
 {
     if (self && plistdic && [[plistdic class] isSubclassOfClass:[NSDictionary class]]) {
         
-        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, maskToBounds, self.masksToBounds = maskToBounds.boolValue;);
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, masksToBounds, self.masksToBounds = masksToBounds.boolValue;);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, cornerRadius, self.cornerRadius = cornerRadius.floatValue;);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, borderWidth, self.borderWidth = borderWidth.floatValue;);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, borderColor, self.borderColor = [UIColor colorWithHBKeyString:borderColor].CGColor);

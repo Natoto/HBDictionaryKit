@@ -36,13 +36,18 @@
         DIC_FOR_OBJ_NOTNULL_(plistdic, UIFont, font, if(font && [[font class] isSubclassOfClass:[UIFont class]]) [self setTitleFont:font];)
         //背景颜色
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, backgroundColor, if(backgroundColor.length) [self setBackgroundImage:[UIColor colorWithHBKeyString:backgroundColor]])
+       
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, selectBackgroundColor, if(selectBackgroundColor.length) [self setSelectBackgroundImage:[UIColor colorWithHBKeyString:selectBackgroundColor]])
+       
+        DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, disableBackgroundColor, if(disableBackgroundColor.length) [self setDisableBackgroundImage:[UIColor colorWithHBKeyString:disableBackgroundColor]])
+        
         
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, highlightedBackgroundColor, if(highlightedBackgroundColor.length)  [self setBackgroundImage:[UIButton buttonImageFromColor:[UIColor colorWithHBKeyString:highlightedBackgroundColor] frame:CGRectMake(0, 0, 1, 1)] forState:UIControlStateHighlighted];)
         
         //背景图片
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, image, if(image.length) [self setImage:[UIImage imageNamed:image] forState:UIControlStateNormal])
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, selectImage,if(selectImage.length)  [self setImage:[UIImage imageNamed:selectImage] forState:UIControlStateNormal])
+        
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, disableImage, if(disableImage.length)  [self setImage:[UIImage imageNamed:disableImage] forState:UIControlStateNormal])
         
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, showsTouchWhenHighlighted, self.showsTouchWhenHighlighted = showsTouchWhenHighlighted.boolValue)

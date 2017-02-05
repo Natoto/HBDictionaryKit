@@ -43,8 +43,12 @@
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, borderStyle, if(borderStyle.length){
             self.borderStyle = [self UITextBorderStyleFromString:borderStyle];
         })
+        
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, placeholder, self.placeholder = placeholder);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, clearsOnBeginEditing, self.clearsOnBeginEditing = clearsOnBeginEditing.boolValue);
+        
+         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, secureTextEntry, self.secureTextEntry = secureTextEntry.boolValue);
+        
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, adjustsFontSizeToFitWidth, self.adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth.boolValue);
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSNumber, minimumFontSize, self.minimumFontSize = minimumFontSize.floatValue;)
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, background, self.background = [UIImage imageNamed:background]);
@@ -52,7 +56,7 @@
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, clearButtonMode, if(clearButtonMode) self.clearButtonMode = [self UITextFieldViewModeFromString:clearButtonMode];)
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, leftViewMode, if(leftViewMode.length) self.leftViewMode = [self UITextFieldViewModeFromString:leftViewMode];)
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, rightViewMode, if(rightViewMode.length) self.rightViewMode = [self UITextFieldViewModeFromString:rightViewMode];)
-
+        
     }
     return self;
 }
