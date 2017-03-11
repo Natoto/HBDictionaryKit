@@ -37,7 +37,7 @@
 -(instancetype)configwithdictionary:(NSDictionary *)plistdic
 {
 
-    NSLog(@"%s",__func__);
+//    NSLog(@"%s",__func__);
     if (self && plistdic) {
         [self configsuperwithdictionary:plistdic];
         DIC_FOR_OBJ_NOTNULL_(plistdic, NSString, text, self.text = text)
