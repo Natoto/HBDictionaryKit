@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "HBDictionaryKit"
-s.version      = "0.1.5"
+s.version      = "1.0.1"
 s.summary      = "a good things."
 s.homepage     = "https://github.com/Natoto/HBDictionaryKit"
 s.license      = "MIT"
